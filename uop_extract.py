@@ -11,20 +11,38 @@ import json
 import xml.etree.ElementTree as ET
 import argparse
 import hashlib
-import requests
 import zipfile
 from pathlib import Path
-from typing import BinaryIO, Dict, Tuple, Counter as CounterType, TextIO, Set, Optional, List
+from typing import BinaryIO, Dict, Tuple, Counter as CounterType, TextIO, Set, Optional, List, Union, cast, TYPE_CHECKING
 from collections import Counter
 from io import BytesIO
 
-# Debug flag for additional output
+if TYPE_CHECKING:
+    import requests
+else:
+    import requests
+
+# Type aliases for better readability
+Element = Union[ET.Element, None]
+
+# Debug configuration
 DEBUG = False
+DEBUG_LOG = "debug.log"
+
+def debug_print(msg: str) -> None:
+    """Write debug messages to the debug log file"""
+    if DEBUG:
+        with open(DEBUG_LOG, 'a') as f:
+            f.write(f"{msg}\n")
 
 # Configuration
 TRID_DEFS_DIR = "trid_definitions"
+TRID_DEFS_URL = "https://mark0.net/download/triddefs_xml.7z"
 
-TRID_DEFS_URL = "https://mark0.net/download/triddefs.zip"
+def clear_debug_log() -> None:
+    """Clear the debug log file and write the start marker"""
+    with open(DEBUG_LOG, 'w') as f:
+        f.write(f"=== Debug Log Start: {time.strftime('%Y-%m-%d %H:%M:%S')} ===\n")
 # Known directory/extension hash patterns
 PATH_PREFIXES = {
     # Full path prefixes that override other patterns
@@ -132,117 +150,228 @@ class TrIDAnalyzer:
                 tree = ET.parse(xml_file)
                 root = tree.getroot()
                 info = root.find("Info")
-                definitions.append({
-                    "file_type": info.find("FileType").text,
-                    "extension": info.find("Ext").text,
-                    "patterns": [
-                        {
-                            "offset": int(pattern.attrib["offset"]),
-                            "value": bytes.fromhex(pattern.text.strip())
-                        }
-                        for pattern in root.findall("FrontBlock/Pattern")
-                    ]
-                })
+                if info is not None:
+                    file_type_elem = info.find("FileType")
+                    ext_elem = info.find("Ext")
+                    if file_type_elem is not None and ext_elem is not None and file_type_elem.text is not None and ext_elem.text is not None:
+                        patterns = []
+                        for pattern in root.findall("FrontBlock/Pattern"):
+                            if pattern.text is not None and pattern.get("offset") is not None:
+                                try:
+                                    patterns.append({
+                                        "offset": int(pattern.get("offset", "0")),
+                                        "value": bytes.fromhex(pattern.text.strip())
+                                    })
+                                except (ValueError, AttributeError):
+                                    if DEBUG:
+                                        print(f"Error parsing pattern in {xml_file}")
+                                    continue
+                        
+                        definitions.append({
+                            "file_type": file_type_elem.text,
+                            "extension": ext_elem.text,
+                            "patterns": patterns
+                        })
             except (ET.ParseError, ValueError) as e:
                 if DEBUG:
                     print(f"Error parsing {xml_file}: {str(e)}")
         return definitions
     
     def update_trid_definitions(self) -> None:
+        """Download and extract XML TrID definitions"""
         print("Updating TrID definitions...")
         response = requests.get(TRID_DEFS_URL)
         response.raise_for_status()
         
+        # Create definitions directory
         Path(TRID_DEFS_DIR).mkdir(exist_ok=True)
-        with zipfile.ZipFile(BytesIO(response.content)) as z:
-            z.extractall(TRID_DEFS_DIR)
         
-        # Convert binary definitions to XML
-        self.convert_trid_defs_to_xml()
+        # Write the downloaded 7z file
+        archive_path = Path(TRID_DEFS_DIR) / "triddefs_xml.7z"
+        archive_path.write_bytes(response.content)
         
-        print(f"Updated TrID definitions in {TRID_DEFS_DIR}")
+        # Extract using 7z command line tool
+        import subprocess
+        try:
+            subprocess.run(['7z', 'x', str(archive_path), f'-o{TRID_DEFS_DIR}', '-y'], 
+                         check=True, capture_output=True)
+            print(f"Updated TrID definitions in {TRID_DEFS_DIR}")
+        except subprocess.CalledProcessError as e:
+            print(f"Error extracting definitions: {e}")
+            if e.stderr:
+                print(f"7z error output: {e.stderr.decode()}")
+        finally:
+            # Clean up the downloaded archive
+            archive_path.unlink()
         
-    def convert_trid_defs_to_xml(self) -> None:
+    def _load_xml_definitions(self) -> None:
         """Convert binary TrID definitions to XML format."""
         trd_path = Path(TRID_DEFS_DIR) / "triddefs.trd"
         if not trd_path.exists():
             return
+
+        def read_string(f: BinaryIO) -> str:
+            # First try reading until we hit a NUL byte
+            chars = []
+            while True:
+                b = f.read(1)
+                if not b or b == b'\x00':
+                    break
+                chars.append(b)
             
+            # Try to decode all collected bytes at once
+            if chars:
+                try:
+                    return b''.join(chars).decode('utf-8', errors='replace')
+                except UnicodeDecodeError:
+                    return b''.join(chars).decode('ascii', errors='replace')
+            return ""
+
         try:
             with open(trd_path, 'rb') as f:
+                f.seek(0)
+                # Read RIFF header
+                if f.read(4) != b'RIFF':
+                    debug_print("Not a valid RIFF file")
+                    return
+
+                # Read chunk size (4 bytes)
+                chunk_size = read_int(f)
+                debug_print(f"Chunk size: {chunk_size}")
+
+                # Read format type
+                if f.read(8) != b'TRIDDEF\0':
+                    debug_print("Not a TrID definitions file")
+                    return
+
+                debug_print("Valid TrID format header found")
+
+                # Process each definition block
+                definitions_found = 0
                 while True:
                     try:
-                        # Read definition header
-                        name_len = int.from_bytes(f.read(1), byteorder='little')
-                        if not name_len:  # End of file
+                        block_start = f.read(3)
+                        if not block_start or block_start != b'DEF':
+                            break
+
+                        # Read chunk header
+                        chunk_id = f.read(4)
+                        if not chunk_id:  # End of file
                             break
                             
-                        ext_len = int.from_bytes(f.read(1), byteorder='little')
-                        mime_len = int.from_bytes(f.read(1), byteorder='little')
+                        if chunk_id != b'DEF ':  # Note space after DEF
+                            debug_print(f"Unexpected chunk ID: {chunk_id!r}")
+                            continue
+                            
+                        chunk_size = read_int(f)
+                        debug_print(f"DEF chunk size: {chunk_size}")
                         
-                        # Read strings
-                        file_type = f.read(name_len).decode('utf-8')
-                        ext = f.read(ext_len).decode('utf-8') if ext_len else ""
-                        mime = f.read(mime_len).decode('utf-8') if mime_len else ""
+                        # Read pattern
+                        pattern = f.read(chunk_size)
+                        debug_print(f"Pattern size: {len(pattern)}")
                         
-                        # Read patterns
-                        pattern_count = int.from_bytes(f.read(2), byteorder='little')
-                        patterns = []
+                        # Read metadata fields
+                        fields = {}
+                        while True:
+                            field_id = f.read(4)
+                            if not field_id or field_id == b'DEF ':
+                                if field_id == b'DEF ':
+                                    f.seek(-4, 1)  # Push back DEF marker
+                                break
+                                
+                            field_size = read_int(f)
+                            field_data = f.read(field_size).decode('ascii', errors='ignore')
+                            field_name = field_id.decode('ascii').strip().lower()
+                            fields[field_name] = field_data.strip()
+                            debug_print(f"Field {field_name}: {field_data}")
                         
-                        for _ in range(pattern_count):
-                            offset = int.from_bytes(f.read(4), byteorder='little')
-                            pattern_len = int.from_bytes(f.read(1), byteorder='little')
-                            pattern = f.read(pattern_len)
-                            patterns.append((offset, pattern))
-                        
+                        # Get core fields
+                        file_type = fields.get('type', '')
+                        ext = fields.get('ext', '')
+                        mime = fields.get('mime', '')
+                        name = fields.get('name', '')
+                        user = fields.get('user', '')
+                        url = fields.get('url', '')
+
+                        if not file_type:  # Skip if no type
+                            continue
+
                         # Create XML definition
+                        safe_name = file_type.replace('/', '_').replace(' ', '_')
+                        debug_print(f"Creating definition for: {safe_name}")
+                        xml_path = Path(TRID_DEFS_DIR) / f"{safe_name}.trid.xml"
+                        definitions_found += 1
+                        debug_print(f"Created definition {definitions_found}: {safe_name}")
+
                         xml_content = f"""<?xml version="1.0" encoding="UTF-8"?>
-                            <TrID>
-                                <Info>
-                                    <FileType>{file_type}</FileType>
-                                    <Ext>{ext}</Ext>
-                                    <MIME>{mime}</MIME>
-                                </Info>
-                                <FrontBlock>
-                                    {''.join(f'<Pattern offset="{offset}">{pattern.hex()}</Pattern>' for offset, pattern in patterns)}
-                                </FrontBlock>
-                            </TrID>"""
-                        
-                        # Save XML file
-                        xml_path = Path(TRID_DEFS_DIR) / f"{file_type.replace('/', '_').replace(' ', '_')}.trid.xml"
+                        <TrID>
+                            <Info>
+                                <FileType>{file_type}</FileType>
+                                <Ext>{ext}</Ext>
+                                <MIME>{mime}</MIME>
+                                <Name>{name}</Name>
+                                <User>{user}</User>
+                                <URL>{url}</URL>
+                            </Info>
+                            <FrontBlock>
+                                <Pattern offset="0">{pattern.hex()}</Pattern>
+                            </FrontBlock>
+                        </TrID>"""
+
                         with open(xml_path, 'w', encoding='utf-8') as xml_file:
                             xml_file.write(xml_content)
-                            
-                    except (EOFError, UnicodeDecodeError):
-                        break  # End of file or corrupted entry
-                        
-        except Exception as e:
-            if DEBUG:
-                print(f"Error converting TrID definitions: {e}")
 
-    def identify_file(self, data: bytes) -> Optional[Dict]:
+                    except (EOFError, UnicodeDecodeError) as e:
+                        if DEBUG:
+                            print(f"Error processing definition: {e}")
+                        continue
+
+        except Exception as e:
+            debug_print(f"Error converting TrID definitions: {e}")
+            debug_print(f"Current position in file: {f.tell()}")
+            if DEBUG:
+                import traceback
+                traceback.print_exc()
+
+    TridResult = Dict[str, Union[str, float]]
+
+    def _create_result(self, file_type: str, extension: str) -> TridResult:
+        """Create a properly typed result dictionary."""
+        return {
+            "file_type": str(file_type or ""),  # Ensure non-None string
+            "extension": str(extension or ""),   # Ensure non-None string
+            "confidence": 100.0
+        }
+
+    def identify_file(self, data: bytes) -> Optional[TridResult]:
         for defn in self.definitions:
-            match = True
-            for pattern in defn["patterns"]:
-                offset = pattern["offset"]
-                value = pattern["value"]
-                
-                if offset + len(value) > len(data):
-                    match = False
-                    break
-                
-                if data[offset:offset+len(value)] != value:
-                    match = False
-                    break
-            
-            if match:
-                if DEBUG:
-                    print(f"TrID identified file type: {defn['file_type']}")
-                return {
-                    "file_type": defn["file_type"],
-                    "extension": defn["extension"],
-                    "confidence": 100.0
-                }
+            try:
+                file_type = str(defn.get("file_type", ""))
+                extension = str(defn.get("extension", ""))
+                if not file_type:  # Skip if no file type
+                    continue
+
+                match = True
+                for pattern in defn.get("patterns", []):
+                    offset = int(pattern.get("offset", 0))
+                    value = pattern.get("value", b"")
+                    if not isinstance(value, bytes):
+                        continue
+
+                    if offset + len(value) > len(data):
+                        match = False
+                        break
+
+                    if data[offset:offset+len(value)] != value:
+                        match = False
+                        break
+
+                if match:
+                    if DEBUG:
+                        print(f"TrID identified file type: {file_type}")
+                    return self._create_result(file_type, extension)
+            except (ValueError, TypeError, AttributeError):
+                continue  # Skip malformed entries
         return None
 
 TRID = TrIDAnalyzer()
@@ -458,28 +587,28 @@ def detect_file_type(data: bytes) -> Tuple[str, str, str, list[str]]:
     # Try TrID identification for remaining files
     trid_result = TRID.identify_file(data)
     if trid_result:
-        type_parts = trid_result['file_type'].split('/')
-        if DEBUG:
-            print(f"TrID identified file type: {trid_result['file_type']}")
+        # Extract and validate strings from result
+        file_type = str(trid_result.get('file_type', ''))
+        extension = str(trid_result.get('extension', '')).lower()
+        
+        if file_type:  # Only process if we have a valid file type
+            type_parts = [str(p) for p in file_type.split('/')]
+            if DEBUG:
+                print(f"TrID identified file type: {file_type}")
 
-        # Map TrID types to our directory structure
-        if any('Font' in part for part in type_parts):
-            dir_path = 'Fonts'
-        elif any(x in type_parts[0] for x in ['Icon', 'Button']):
-            dir_path = 'Icons'
-        elif 'Texture' in type_parts[0] or 'Image' in type_parts[0]:
-            dir_path = 'Textures'
-        elif 'Binary' in type_parts[0]:
-            dir_path = 'Data'
-        else:
-            dir_path = type_parts[0].title()
+            # Map TrID types to our directory structure
+            if any('Font' in str(part) for part in type_parts):
+                dir_path = 'Fonts'
+            elif any(x in str(type_parts[0]) for x in ['Icon', 'Button']):
+                dir_path = 'Icons'
+            elif 'Texture' in str(type_parts[0]) or 'Image' in str(type_parts[0]):
+                dir_path = 'Textures'
+            elif 'Binary' in str(type_parts[0]):
+                dir_path = 'Data'
+            else:
+                dir_path = str(type_parts[0]).title()
 
-        return (
-            dir_path,
-            trid_result['extension'].lower(),
-            f"TrID: {trid_result['file_type']}",
-            []
-        )
+            return (dir_path, extension, f"TrID: {file_type}", [])
     
     # Default to binary data
     file_hash = hashlib.sha256(data).hexdigest()
@@ -576,21 +705,30 @@ def extract_uop(uop_path: str, output_dir: str) -> Tuple[CounterType[str], Set[i
 
                     content_hash = hashlib.sha256(file_data).hexdigest()
                     if content_hash in content_hashes:
-                        rel_path = content_hashes[content_hash]
+                        reused_path = content_hashes[content_hash]
                         # Normalize directory case in reused paths
-                        parts = rel_path.split('/')
+                        parts = reused_path.split('/')
                         if len(parts) > 1:
                             parts[0] = parts[0].title()  # Capitalize first directory
-                            rel_path = '/'.join(parts)
-                        output_path = os.path.join(output_dir, rel_path)
+                            reused_path = '/'.join(parts)
+                        reused_output = os.path.join(output_dir, reused_path)
                         if DEBUG:
-                            print(f"Reused path from content hash: {rel_path}")
+                            debug_print(f"Reused path from content hash: {reused_path}")
                         continue
 
-                    dir_name, ext, content_info, file_paths = detect_file_type(file_data)
-                    output_path = None
-                    found_match = False
-                    rel_path = None
+                    # Initialize variables with default values to satisfy type checker
+                    dir_name: str = 'Data'  # Default directory
+                    ext: str = 'bin'        # Default extension
+                    content_info: str = ""   # Default info
+                    file_paths: list[str] = [] # Default empty list
+                    current_output: Optional[str] = None
+                    found_match: bool = False
+                    current_path: Optional[str] = None
+
+                    # Call detect_file_type and unpack results
+                    detect_result = detect_file_type(file_data)
+                    if detect_result:
+                        dir_name, ext, content_info, file_paths = detect_result
 
                     for path in file_paths:
                         computed_hash = hash_filename(path)
@@ -598,80 +736,82 @@ def extract_uop(uop_path: str, output_dir: str) -> Tuple[CounterType[str], Set[i
                             hash_mappings[filename_hash] = path
                             found_match = True
                             if DEBUG:
-                                print(f"Matched path: {path} -> 0x{filename_hash:016x}")
+                                debug_print(f"Matched path: {path} -> 0x{filename_hash:016x}")
                             break
                         elif DEBUG and path.endswith(('.xml', '.lua', '.ttf', '.dds')):
-                            print(f"Near miss for {path}:")
-                            print(f"Expected: 0x{filename_hash:016x}")
-                            print(f"Got:      0x{computed_hash:016x}")
+                            debug_print(f"Near miss for {path}:")
+                            debug_print(f"Expected: 0x{filename_hash:016x}")
+                            debug_print(f"Got:      0x{computed_hash:016x}")
 
-                    known_path = hash_mappings.get(filename_hash)
+                    known_path = hash_mappings.get(filename_hash, "")  # Default to empty string
                     if known_path:
-                        rel_path = known_path
-                        output_path = os.path.join(output_dir, rel_path)
-                        _, ext = os.path.splitext(rel_path)
-                        ext = ext[1:] if ext else ''
-                        dir_name = os.path.dirname(rel_path).split('/')[0] if '/' in rel_path else dir_name
+                        current_path = known_path
+                        current_output = os.path.join(output_dir, current_path)
+                        _, ext_part = os.path.splitext(current_path)
+                        ext = ext_part[1:] if ext_part else ext  # Keep existing ext if no extension
+                        dir_name = os.path.dirname(current_path).split('/')[0] if '/' in current_path else dir_name
                         if DEBUG:
-                            print(f"Using known hash mapping: {rel_path}")
+                            debug_print(f"Using known hash mapping: {current_path}")
                     
-                    if not output_path:
+                    if not current_output:
                         derived_path = try_derive_path(file_data, ext, filename_hash)
                         if derived_path:
-                            rel_path = derived_path
-                            output_path = os.path.join(output_dir, rel_path)
-                            _, ext = os.path.splitext(rel_path)
+                            current_path = derived_path
+                            current_output = os.path.join(output_dir, current_path)
+                            _, ext = os.path.splitext(current_path)
                             ext = ext[1:] if ext else ''
                             # Keep full directory path
-                            dir_name = os.path.dirname(rel_path)
-                            hash_mappings[filename_hash] = rel_path
+                            dir_name = os.path.dirname(current_path)
+                            hash_mappings[filename_hash] = current_path
                             if DEBUG:
-                                print(f"Derived path from content: {rel_path}")
+                                print(f"Derived path from content: {current_path}")
 
-                    if not output_path and os.path.exists("Default"):
+                    if not current_output and os.path.exists("Default"):
                         default_match = find_matching_default_file(file_data, ext, filename_hash, hash_mappings, block_id, file_id)
                         if default_match:
-                            rel_path = default_match
-                            output_path = os.path.join(output_dir, rel_path)
-                            _, ext = os.path.splitext(rel_path)
+                            current_path = default_match
+                            current_output = os.path.join(output_dir, current_path)
+                            _, ext = os.path.splitext(current_path)
                             ext = ext[1:] if ext else ''
-                            dir_name = os.path.dirname(rel_path).split('/')[0] if '/' in rel_path else dir_name
+                            dir_name = os.path.dirname(current_path).split('/')[0] if '/' in current_path else dir_name
                             if DEBUG:
-                                print(f"Matched file contents: {rel_path}")
+                                debug_print(f"Matched file contents: {current_path}")
                     
-                    if not output_path and found_match:
-                        rel_path = hash_mappings[filename_hash]
-                        output_path = os.path.join(output_dir, rel_path)
-                        _, ext = os.path.splitext(rel_path)
+                    if not current_output and found_match:
+                        current_path = hash_mappings[filename_hash]
+                        current_output = os.path.join(output_dir, current_path)
+                        _, ext = os.path.splitext(current_path)
                         ext = ext[1:] if ext else ''
-                        dir_name = os.path.dirname(rel_path).split('/')[0] if '/' in rel_path else dir_name
+                        dir_name = os.path.dirname(current_path).split('/')[0] if '/' in current_path else dir_name
                     
-                    if not output_path:
-                        output_path = os.path.join(output_dir, dir_name, f"{block_id}.{file_id}.{ext}")
+                    if not current_output:
+                        final_path = os.path.join(output_dir, dir_name, f"{block_id}.{file_id}.{ext}")
+                    else:
+                        final_path = current_output
                     
                     # Use full directory path in counter
                     extension_counts[f"{dir_name or 'root'}/{ext}"] += 1
 
                     seen_hashes.add(filename_hash)
 
-                    dirname = os.path.dirname(output_path)
+                    dirname = os.path.dirname(final_path)
                     if dirname:
                         os.makedirs(dirname, exist_ok=True)
 
                     try:
-                        with open(output_path, 'wb') as out:
+                        with open(final_path, 'wb') as out:
                             out.write(file_data)
                     except OSError as e:
-                        print(f"Warning: Failed to write file {output_path}: {e}")
-                        output_path = os.path.join(output_dir, dir_name, f"{block_id}.{file_id}.{ext}")
-                        dirname = os.path.dirname(output_path)
+                        print(f"Warning: Failed to write file {final_path}: {e}")
+                        fallback_path = os.path.join(output_dir, dir_name, f"{block_id}.{file_id}.{ext}")
+                        dirname = os.path.dirname(fallback_path)
                         if dirname:
                             os.makedirs(dirname, exist_ok=True)
-                        with open(output_path, 'wb') as out:
+                        with open(fallback_path, 'wb') as out:
                             out.write(file_data)
                     
-                    if rel_path:
-                        content_hashes[content_hash] = rel_path
+                    if current_path:
+                        content_hashes[content_hash] = current_path
                     
                     f.seek(current_pos)
                     files_processed += 1
@@ -769,6 +909,7 @@ def main() -> None:
     if args.debug:
         global DEBUG
         DEBUG = True
+        clear_debug_log()
 
     if args.update_trid:
         TRID.update_trid_definitions()

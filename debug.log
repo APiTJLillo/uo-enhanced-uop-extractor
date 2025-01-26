@@ -1,0 +1,2983 @@
+=== Debug Log Start: 2025-01-26 17:55:59 ===
+Near miss for Source/EA_ContextMenu.xml:
+Expected: 0xe294c41464463800
+Got:      0x5f3646d330776926
+Using known hash mapping: EA_ContextMenu/Source/EA_ContextMenu.lua
+Near miss for Source/EA_ContextMenu.lua:
+Expected: 0xe54f8ab8a0db6371
+Got:      0x5f3646d330776926
+Using known hash mapping: EA_ContextMenu/Source/EA_ContextMenu.xml
+Near miss for fonts/ariblk.ttf:
+Expected: 0x697735820078b7cc
+Got:      0x69770000069915eb
+Using known hash mapping: Fonts/Fonts.xml
+Using known hash mapping: Icons/actions/00030120_CurseWeapon_DEBUFF_EC.dds
+Using known hash mapping: Icons/actions/abilities.dds
+Using known hash mapping: Icons/actions/actions.dds
+Using known hash mapping: Icons/actions/agents.dds
+Using known hash mapping: Icons/actions/Air_Elemental.dds
+Using known hash mapping: Icons/actions/allkill.dds
+Using known hash mapping: Icons/actions/allnames.dds
+Using known hash mapping: Icons/actions/allrelease.dds
+Using known hash mapping: Icons/actions/alphamode.dds
+Using known hash mapping: Icons/actions/alter_gargoyles.dds
+Using known hash mapping: Icons/actions/AlwaysRun.dds
+Using known hash mapping: Icons/actions/AnOrd.dds
+Using known hash mapping: Icons/actions/Arachnid.dds
+Using known hash mapping: Icons/actions/armdisarm.dds
+Using known hash mapping: Icons/actions/ASH_10.dds
+Using known hash mapping: Icons/actions/ASH_15.dds
+Using known hash mapping: Icons/actions/ASH_30.dds
+Using known hash mapping: Icons/actions/ASH_60.dds
+Using known hash mapping: Icons/actions/atlas.dds
+Using known hash mapping: Icons/actions/attackcurrent.dds
+Using known hash mapping: Icons/actions/attacklastcursor.dds
+Using known hash mapping: Icons/actions/back.dds
+Using known hash mapping: Icons/actions/backleft.dds
+Using known hash mapping: Icons/actions/backpack.dds
+Using known hash mapping: Icons/actions/backright.dds
+Using known hash mapping: Icons/actions/backwardslow.dds
+Using known hash mapping: Icons/actions/backwardsone.dds
+Using known hash mapping: Icons/actions/Balance.dds
+Using known hash mapping: Icons/actions/bandageselectedtarget.dds
+Using known hash mapping: Icons/actions/bandageself.dds
+Using known hash mapping: Icons/actions/Bank.dds
+Using known hash mapping: Icons/actions/Bard_Air_Elemental.dds
+Using known hash mapping: Icons/actions/Bard_Arachnid.dds
+Using known hash mapping: Icons/actions/Bard_Blood_Elemental.dds
+Using known hash mapping: Icons/actions/Bard_Demon.dds
+Using known hash mapping: Icons/actions/Bard_Dragon.dds
+Using known hash mapping: Icons/actions/Bard_Earth_Elemental.dds
+Using known hash mapping: Icons/actions/Bard_Elemental.dds
+Using known hash mapping: Icons/actions/Bard_Fey.dds
+Using known hash mapping: Icons/actions/Bard_Fire_Elemental.dds
+Using known hash mapping: Icons/actions/Bard_Gargoyle.dds
+Using known hash mapping: Icons/actions/Bard_Lizardman.dds
+Using known hash mapping: Icons/actions/Bard_Ogre.dds
+Using known hash mapping: Icons/actions/Bard_Ophidian.dds
+Using known hash mapping: Icons/actions/Bard_Orc.dds
+Using known hash mapping: Icons/actions/Bard_Poison_Elemental.dds
+Using known hash mapping: Icons/actions/Bard_Repond.dds
+Using known hash mapping: Icons/actions/Bard_Reptile.dds
+Using known hash mapping: Icons/actions/Bard_Scorpion.dds
+Using known hash mapping: Icons/actions/Bard_Snake.dds
+Using known hash mapping: Icons/actions/Bard_Snow_Elemental.dds
+Using known hash mapping: Icons/actions/Bard_Spider.dds
+Using known hash mapping: Icons/actions/Bard_Terathan.dds
+Using known hash mapping: Icons/actions/Bard_Troll.dds
+Using known hash mapping: Icons/actions/Bard_Undead.dds
+Using known hash mapping: Icons/actions/Bard_Water_Elemental.dds
+Using known hash mapping: Icons/actions/blank1.dds
+Using known hash mapping: Icons/actions/blank2.dds
+Using known hash mapping: Icons/actions/Blood_Elemental.dds
+Using known hash mapping: Icons/actions/bod.dds
+Using known hash mapping: Icons/actions/Bovine.dds
+Using known hash mapping: Icons/actions/bow.dds
+Using known hash mapping: Icons/actions/bribe.dds
+Using known hash mapping: Icons/actions/Button_Frame_01.dds
+Using known hash mapping: Icons/actions/Button_Frame_02.dds
+Using known hash mapping: Icons/actions/Button_Frame_03.dds
+Using known hash mapping: Icons/actions/Button_Frame_04.dds
+Using known hash mapping: Icons/actions/Button_Frame_05.dds
+Using known hash mapping: Icons/actions/Button_Frame_06.dds
+Using known hash mapping: Icons/actions/Button_Frame_07.dds
+Using known hash mapping: Icons/actions/Button_Frame_08.dds
+Using known hash mapping: Icons/actions/Button_Frame_09.dds
+Using known hash mapping: Icons/actions/Button_Frame_10.dds
+Using known hash mapping: Icons/actions/Buying.dds
+Using known hash mapping: Icons/actions/cancelcursortarget.dds
+Using known hash mapping: Icons/actions/cancelprotection.dds
+Using known hash mapping: Icons/actions/cancelquest.dds
+Using known hash mapping: Icons/actions/Cannon1.dds
+Using known hash mapping: Icons/actions/Cannon2.dds
+Using known hash mapping: Icons/actions/Cannon3.dds
+Using known hash mapping: Icons/actions/Cannon4.dds
+Using known hash mapping: Icons/actions/Cannon5.dds
+Using known hash mapping: Icons/actions/Cannon6.dds
+Using known hash mapping: Icons/actions/Cannon7.dds
+Using known hash mapping: Icons/actions/Cannon8.dds
+Using known hash mapping: Icons/actions/Cannon9.dds
+Using known hash mapping: Icons/actions/chat.dds
+Using known hash mapping: Icons/actions/Claim.dds
+Using known hash mapping: Icons/actions/clearignore.dds
+Using known hash mapping: Icons/actions/cleartargetqueue.dds
+Using known hash mapping: Icons/actions/closeallcont.dds
+Using known hash mapping: Icons/actions/closehb.dds
+Using known hash mapping: Icons/actions/come.dds
+Using known hash mapping: Icons/actions/comeaboard.dds
+Using known hash mapping: Icons/actions/command.dds
+Using known hash mapping: Icons/actions/continue.dds
+Using known hash mapping: Icons/actions/corpse.dds
+Using known hash mapping: Icons/actions/cyclecursor.dds
+Using known hash mapping: Icons/actions/dance.dds
+Using known hash mapping: Icons/actions/delay.dds
+Using known hash mapping: Icons/actions/Demon.dds
+Using known hash mapping: Icons/actions/disablepaper.dds
+Using known hash mapping: Icons/actions/dismount.dds
+Using known hash mapping: Icons/actions/door.dds
+Using known hash mapping: Icons/actions/doracron.dds
+Using known hash mapping: Icons/actions/Dragon.dds
+Using known hash mapping: Icons/actions/Dress_Up.dds
+Using known hash mapping: Icons/actions/driftleft.dds
+Using known hash mapping: Icons/actions/driftright.dds
+Using known hash mapping: Icons/actions/dropanchor.dds
+Using known hash mapping: Icons/actions/dropcont.dds
+Using known hash mapping: Icons/actions/drophold.dds
+Using known hash mapping: Icons/actions/droppaper.dds
+Using known hash mapping: Icons/actions/Earth_Elemental.dds
+Using known hash mapping: Icons/actions/Elemental.dds
+Using known hash mapping: Icons/actions/emote.dds
+Using known hash mapping: Icons/actions/EmoteEffects.dds
+Using known hash mapping: Icons/actions/EmoteSounds.dds
+Using known hash mapping: Icons/actions/englishnames.dds
+Using known hash mapping: Icons/actions/enhance.dds
+Using known hash mapping: Icons/actions/equip.dds
+Using known hash mapping: Icons/actions/equiplastweapon.dds
+Using known hash mapping: Icons/actions/Equip_Best_Book.dds
+Using known hash mapping: Icons/actions/Equip_Best_Gears.dds
+Using known hash mapping: Icons/actions/Equip_Best_Weap.dds
+Using known hash mapping: Icons/actions/Equip_Book1.dds
+Using known hash mapping: Icons/actions/Equip_Book2.dds
+Using known hash mapping: Icons/actions/Equip_Book3.dds
+Using known hash mapping: Icons/actions/Equip_Book4.dds
+Using known hash mapping: Icons/actions/Equip_Book5.dds
+Using known hash mapping: Icons/actions/Equip_FC_Book.dds
+Using known hash mapping: Icons/actions/Equip_Fishing_Pole.dds
+Using known hash mapping: Icons/actions/Equip_Gears1.dds
+Using known hash mapping: Icons/actions/Equip_Gears2.dds
+Using known hash mapping: Icons/actions/Equip_Gears3.dds
+Using known hash mapping: Icons/actions/Equip_Gears4.dds
+Using known hash mapping: Icons/actions/Equip_Gears5.dds
+Using known hash mapping: Icons/actions/Equip_Invisible_Gears.dds
+Using known hash mapping: Icons/actions/Equip_LRC_Gears.dds
+Using known hash mapping: Icons/actions/Equip_Luck_Gears.dds
+Using known hash mapping: Icons/actions/Equip_MR_Book.dds
+Using known hash mapping: Icons/actions/Equip_SDI_Book.dds
+Using known hash mapping: Icons/actions/Equip_Skill_Gears.dds
+Using known hash mapping: Icons/actions/Equip_Weap1.dds
+Using known hash mapping: Icons/actions/Equip_Weap2.dds
+Using known hash mapping: Icons/actions/Equip_Weap3.dds
+Using known hash mapping: Icons/actions/Equip_Weap4.dds
+Using known hash mapping: Icons/actions/Equip_Weap5.dds
+Using known hash mapping: Icons/actions/exportfile.dds
+Using known hash mapping: Icons/actions/Fey.dds
+Using known hash mapping: Icons/actions/Fire_Elemental.dds
+Using known hash mapping: Icons/actions/fiveaction.dds
+Using known hash mapping: Icons/actions/Foliage.dds
+Using known hash mapping: Icons/actions/follow.dds
+Using known hash mapping: Icons/actions/followme.dds
+Using known hash mapping: Icons/actions/Footsteps.dds
+Using known hash mapping: Icons/actions/forward.dds
+Using known hash mapping: Icons/actions/forwardleft.dds
+Using known hash mapping: Icons/actions/forwardone.dds
+Using known hash mapping: Icons/actions/forwardright.dds
+Using known hash mapping: Icons/actions/forwardslow.dds
+Using known hash mapping: Icons/actions/fouraction.dds
+Using known hash mapping: Icons/actions/friendlist.dds
+Using known hash mapping: Icons/actions/Gargoyle.dds
+Using known hash mapping: Icons/actions/guard.dds
+Using known hash mapping: Icons/actions/guardme.dds
+Using known hash mapping: Icons/actions/Guards.dds
+Using known hash mapping: Icons/actions/guild.dds
+Using known hash mapping: Icons/actions/help.dds
+Using known hash mapping: Icons/actions/hueid.dds
+Using known hash mapping: Icons/actions/ICON_Item_Property.dds
+Using known hash mapping: Icons/actions/ignore.dds
+Using known hash mapping: Icons/actions/ignoreplayer.dds
+Using known hash mapping: Icons/actions/ignoreself.dds
+Using known hash mapping: Icons/actions/imbue.dds
+Using known hash mapping: Icons/actions/insurancemenu.dds
+Using known hash mapping: Icons/actions/invoke_virtue.dds
+Using known hash mapping: Icons/actions/I_Must_Consider_My_Sins.dds
+Using known hash mapping: Icons/actions/keepalive.dds
+Using known hash mapping: Icons/actions/kill.dds
+Using known hash mapping: Icons/actions/lastobject.dds
+Using known hash mapping: Icons/actions/Lastskill.dds
+Using known hash mapping: Icons/actions/lastspell.dds
+Using known hash mapping: Icons/actions/laydown.dds
+Using known hash mapping: Icons/actions/Leadership.dds
+Using known hash mapping: Icons/actions/leavehouse.dds
+Using known hash mapping: Icons/actions/Legacy_Container.dds
+Using known hash mapping: Icons/actions/Lizardman.dds
+Using known hash mapping: Icons/actions/lockitem.dds
+Using known hash mapping: Icons/actions/logout.dds
+Using known hash mapping: Icons/actions/lootbag.dds
+Using known hash mapping: Icons/actions/loyaltyrating.dds
+Using known hash mapping: Icons/actions/macros.dds
+Using known hash mapping: Icons/actions/makelast.dds
+Using known hash mapping: Icons/actions/mark.dds
+Using known hash mapping: Icons/actions/menu.dds
+Using known hash mapping: Icons/actions/Mobile_Healthbar.dds
+Using known hash mapping: Icons/actions/Mount_Bane_Dragon.dds
+Using known hash mapping: Icons/actions/Mount_Blue_Beetle.dds
+Using known hash mapping: Icons/actions/Mount_Cu_Sidhe.dds
+Using known hash mapping: Icons/actions/Mount_Fire_Beetle.dds
+Using known hash mapping: Icons/actions/Mount_Fire_Steed.dds
+Using known hash mapping: Icons/actions/Mount_Hiryu.dds
+Using known hash mapping: Icons/actions/Mount_Horse.dds
+Using known hash mapping: Icons/actions/Mount_Llama.dds
+Using known hash mapping: Icons/actions/Mount_Nightmare.dds
+Using known hash mapping: Icons/actions/Mount_Ostard.dds
+Using known hash mapping: Icons/actions/Mount_Reptalon.dds
+Using known hash mapping: Icons/actions/Mount_Ridgeback.dds
+Using known hash mapping: Icons/actions/music.dds
+Using known hash mapping: Icons/actions/news.dds
+Using known hash mapping: Icons/actions/nextenemy.dds
+Using known hash mapping: Icons/actions/nextfriendly.dds
+Using known hash mapping: Icons/actions/nextgroup.dds
+Using known hash mapping: Icons/actions/nextobject.dds
+Using known hash mapping: Icons/actions/Ogre.dds
+Using known hash mapping: Icons/actions/oneaction.dds
+Using known hash mapping: Icons/actions/Ophidian.dds
+Using known hash mapping: Icons/actions/Orc.dds
+Using known hash mapping: Icons/actions/Ord.dds
+Using known hash mapping: Icons/actions/paperdoll.dds
+Using known hash mapping: Icons/actions/ParticlesHigh.dds
+Using known hash mapping: Icons/actions/particlesLow.dds
+Using known hash mapping: Icons/actions/particlesMed.dds
+Using known hash mapping: Icons/actions/peace.dds
+Using known hash mapping: Icons/actions/Petball_Bake_Kitsune.dds
+Using known hash mapping: Icons/actions/Petball_Bane_Dragon.dds
+Using known hash mapping: Icons/actions/Petball_Blue_Beetle.dds
+Using known hash mapping: Icons/actions/Petball_Boura.dds
+Using known hash mapping: Icons/actions/Petball_Cu_Side.dds
+Using known hash mapping: Icons/actions/Petball_Fire_Beetle.dds
+Using known hash mapping: Icons/actions/Petball_Greater_Dragon.dds
+Using known hash mapping: Icons/actions/Petball_Hiryu.dds
+Using known hash mapping: Icons/actions/Petball_Nightmare.dds
+Using known hash mapping: Icons/actions/Petball_Packhorse.dds
+Using known hash mapping: Icons/actions/Petball_Packllama.dds
+Using known hash mapping: Icons/actions/Petball_Raptor.dds
+Using known hash mapping: Icons/actions/Petball_Rune_Beetle.dds
+Using known hash mapping: Icons/actions/Petball_Skree.dds
+Using known hash mapping: Icons/actions/Petball_Vollem.dds
+Using known hash mapping: Icons/actions/Poison_Elemental.dds
+Using known hash mapping: Icons/actions/port.dds
+Using known hash mapping: Icons/actions/potion.dds
+Using known hash mapping: Icons/actions/PrevTarget.dds
+Using known hash mapping: Icons/actions/promptmark.dds
+Using known hash mapping: Icons/actions/punkte.dds
+Using known hash mapping: Icons/actions/PvPWarning.dds
+Using known hash mapping: Icons/actions/quest.dds
+Using known hash mapping: Icons/actions/questconversation.dds
+Using known hash mapping: Icons/actions/questitem.dds
+Using known hash mapping: Icons/actions/questlog.dds
+Using known hash mapping: Icons/actions/quitgame.dds
+Using known hash mapping: Icons/actions/Quiver_Black.dds
+Using known hash mapping: Icons/actions/Quiver_Blue.dds
+Using known hash mapping: Icons/actions/Quiver_Default.dds
+Using known hash mapping: Icons/actions/Quiver_Fire.dds
+Using known hash mapping: Icons/actions/Quiver_Green.dds
+Using known hash mapping: Icons/actions/Quiver_Pink.dds
+Using known hash mapping: Icons/actions/Quiver_Purple.dds
+Using known hash mapping: Icons/actions/raiseanchor.dds
+Using known hash mapping: Icons/actions/recdu.dds
+Using known hash mapping: Icons/actions/recsu.dds
+Using known hash mapping: Icons/actions/recycle.dds
+Using known hash mapping: Icons/actions/releasecoowner.dds
+Using known hash mapping: Icons/actions/releaseitem.dds
+Using known hash mapping: Icons/actions/removemark.dds
+Using known hash mapping: Icons/actions/repair.dds
+Using known hash mapping: Icons/actions/Repond.dds
+Using known hash mapping: Icons/actions/Reptile.dds
+Using known hash mapping: Icons/actions/revert.dds
+Using known hash mapping: Icons/actions/salute.dds
+Using known hash mapping: Icons/actions/say.dds
+Using known hash mapping: Icons/actions/scale.dds
+Using known hash mapping: Icons/actions/Scorpion.dds
+Using known hash mapping: Icons/actions/secure.dds
+Using known hash mapping: Icons/actions/Selling.dds
+Using known hash mapping: Icons/actions/shadowtoggle.dds
+Using known hash mapping: Icons/actions/sheet.dds
+Using known hash mapping: Icons/actions/show_corpse.dds
+Using known hash mapping: Icons/actions/Shuriken.dds
+Using known hash mapping: Icons/actions/siegebless.dds
+Using known hash mapping: Icons/actions/skills.dds
+Using known hash mapping: Icons/actions/Snake.dds
+Using known hash mapping: Icons/actions/Snow_Elemental.dds
+Using known hash mapping: Icons/actions/Sound.dds
+Using known hash mapping: Icons/actions/SoundEffects.dds
+Using known hash mapping: Icons/actions/Spider.dds
+Using known hash mapping: Icons/actions/Stable.dds
+Using known hash mapping: Icons/actions/stablecount.dds
+Using known hash mapping: Icons/actions/starboard.dds
+Using known hash mapping: Icons/actions/start.dds
+Using known hash mapping: Icons/actions/starttracking.dds
+Using known hash mapping: Icons/actions/stay.dds
+Using known hash mapping: Icons/actions/stop.dds
+Using known hash mapping: Icons/actions/stop02.dds
+Using known hash mapping: Icons/actions/stoptracking.dds
+Using known hash mapping: Icons/actions/storeObj1.dds
+Using known hash mapping: Icons/actions/storeObj2.dds
+Using known hash mapping: Icons/actions/storeObj3.dds
+Using known hash mapping: Icons/actions/storeObj4.dds
+Using known hash mapping: Icons/actions/storeObj5.dds
+Using known hash mapping: Icons/actions/storePet1.dds
+Using known hash mapping: Icons/actions/storePet2.dds
+Using known hash mapping: Icons/actions/storePet3.dds
+Using known hash mapping: Icons/actions/storePet4.dds
+Using known hash mapping: Icons/actions/storePet5.dds
+Using known hash mapping: Icons/actions/sueacron.dds
+Using known hash mapping: Icons/actions/Talisman_Alchemy.dds
+Using known hash mapping: Icons/actions/Talisman_Bat.dds
+Using known hash mapping: Icons/actions/Talisman_Bear.dds
+Using known hash mapping: Icons/actions/Talisman_Beetle.dds
+Using known hash mapping: Icons/actions/Talisman_Bird.dds
+Using known hash mapping: Icons/actions/Talisman_Blacksmith.dds
+Using known hash mapping: Icons/actions/Talisman_Bovine.dds
+Using known hash mapping: Icons/actions/Talisman_Bowcrafting.dds
+Using known hash mapping: Icons/actions/Talisman_Carpentry.dds
+Using known hash mapping: Icons/actions/Talisman_Cartography.dds
+Using known hash mapping: Icons/actions/Talisman_Cooking.dds
+Using known hash mapping: Icons/actions/Talisman_Flame.dds
+Using known hash mapping: Icons/actions/Talisman_Glassblowing.dds
+Using known hash mapping: Icons/actions/Talisman_Goblin.dds
+Using known hash mapping: Icons/actions/Talisman_Ice.dds
+Using known hash mapping: Icons/actions/Talisman_Inscription.dds
+Using known hash mapping: Icons/actions/Talisman_Mage.dds
+Using known hash mapping: Icons/actions/Talisman_Masonry.dds
+Using known hash mapping: Icons/actions/Talisman_Tailoring.dds
+Using known hash mapping: Icons/actions/Talisman_Tinkering.dds
+Using known hash mapping: Icons/actions/Talisman_Undead.dds
+Using known hash mapping: Icons/actions/Talisman_Vermin.dds
+Using known hash mapping: Icons/actions/target.dds
+Using known hash mapping: Icons/actions/targetcurrent.dds
+Using known hash mapping: Icons/actions/targetfirstitem.dds
+Using known hash mapping: Icons/actions/targetlast.dds
+Using known hash mapping: Icons/actions/targetnearest.dds
+Using known hash mapping: Icons/actions/targetnearestenemy.dds
+Using known hash mapping: Icons/actions/targetnearestfollower.dds
+Using known hash mapping: Icons/actions/targetnearestfriendly.dds
+Using known hash mapping: Icons/actions/targetnearestgroup.dds
+Using known hash mapping: Icons/actions/targetnearestobject.dds
+Using known hash mapping: Icons/actions/targetnearestsmart.dds
+Using known hash mapping: Icons/actions/targetnext.dds
+Using known hash mapping: Icons/actions/targetnextfollower.dds
+Using known hash mapping: Icons/actions/targetnextobject.dds
+Using known hash mapping: Icons/actions/targetnextsmart.dds
+Using known hash mapping: Icons/actions/targetObj1.dds
+Using known hash mapping: Icons/actions/targetObj2.dds
+Using known hash mapping: Icons/actions/targetObj3.dds
+Using known hash mapping: Icons/actions/targetObj4.dds
+Using known hash mapping: Icons/actions/targetObj5.dds
+Using known hash mapping: Icons/actions/targetPet1.dds
+Using known hash mapping: Icons/actions/targetPet2.dds
+Using known hash mapping: Icons/actions/targetPet3.dds
+Using known hash mapping: Icons/actions/targetPet4.dds
+Using known hash mapping: Icons/actions/targetPet5.dds
+Using known hash mapping: Icons/actions/targetprevious.dds
+Using known hash mapping: Icons/actions/targetpreviousenemy.dds
+Using known hash mapping: Icons/actions/targetpreviousfollower.dds
+Using known hash mapping: Icons/actions/targetpreviousfriendly.dds
+Using known hash mapping: Icons/actions/targetpreviousgroup.dds
+Using known hash mapping: Icons/actions/targetpreviousobject.dds
+Using known hash mapping: Icons/actions/targetprevioussmart.dds
+Using known hash mapping: Icons/actions/targetresource.dds
+Using known hash mapping: Icons/actions/targetself.dds
+Using known hash mapping: Icons/actions/targetseverelyinjuredenemy.dds
+Using known hash mapping: Icons/actions/targetseverelyinjuredfollower.dds
+Using known hash mapping: Icons/actions/targetseverelyinjuredparty.dds
+Using known hash mapping: Icons/actions/targetstored.dds
+Using known hash mapping: Icons/actions/target_by_type.dds
+Using known hash mapping: Icons/actions/Terathan.dds
+Using known hash mapping: Icons/actions/threeaction.dds
+Using known hash mapping: Icons/actions/titlemenu.dds
+Using known hash mapping: Icons/actions/togglealwaysrun.dds
+Using known hash mapping: Icons/actions/togglecircletrans.dds
+Using known hash mapping: Icons/actions/toggleinsurance.dds
+Using known hash mapping: Icons/actions/toggletrades.dds
+Using known hash mapping: Icons/actions/togglewar.dds
+Using known hash mapping: Icons/actions/toolbartoggle.dds
+Using known hash mapping: Icons/actions/transparancy.dds
+Using known hash mapping: Icons/actions/trapbox.dds
+Using known hash mapping: Icons/actions/TrashBarrel.dds
+Using known hash mapping: Icons/actions/Troll.dds
+Using known hash mapping: Icons/actions/twoaction.dds
+Using known hash mapping: Icons/actions/typeid.dds
+Using known hash mapping: Icons/actions/Undead.dds
+Using known hash mapping: Icons/actions/undressAgent.dds
+Using known hash mapping: Icons/actions/unequip.dds
+Using known hash mapping: Icons/actions/unravel.dds
+Using known hash mapping: Icons/actions/UOStore.dds
+Using known hash mapping: Icons/actions/uselast.dds
+Using known hash mapping: Icons/actions/usersettings.dds
+Using known hash mapping: Icons/actions/useselected.dds
+Using known hash mapping: Icons/actions/vacuum.dds
+Using known hash mapping: Icons/actions/virtue1.dds
+Using known hash mapping: Icons/actions/virtue2.dds
+Using known hash mapping: Icons/actions/virtue3.dds
+Using known hash mapping: Icons/actions/virtue4.dds
+Using known hash mapping: Icons/actions/virtue5.dds
+Using known hash mapping: Icons/actions/virtue6.dds
+Using known hash mapping: Icons/actions/virtue7.dds
+Using known hash mapping: Icons/actions/virtue8.dds
+Using known hash mapping: Icons/actions/virtues.dds
+Using known hash mapping: Icons/actions/VoidPool.dds
+Using known hash mapping: Icons/actions/WaitTarget.dds
+Using known hash mapping: Icons/actions/war.dds
+Using known hash mapping: Icons/actions/Water_Elemental.dds
+Using known hash mapping: Icons/actions/Wheel.dds
+Using known hash mapping: Icons/actions/whisper.dds
+Using known hash mapping: Icons/actions/whistle.dds
+Using known hash mapping: Icons/actions/Wolf.dds
+Using known hash mapping: Icons/actions/yell.dds
+Using known hash mapping: Icons/Buffs_Debuffs/blue/00030101_DespairBardAbility_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/blue/30011_Active_Meditation.dds
+Using known hash mapping: Icons/Buffs_Debuffs/blue/30027_Disguised.dds
+Using known hash mapping: Icons/Buffs_Debuffs/blue/30039_Incognito.dds
+Using known hash mapping: Icons/Buffs_Debuffs/blue/30053_Stealth.dds
+Using known hash mapping: Icons/Buffs_Debuffs/blue/30072_Default_Blue.dds
+Using known hash mapping: Icons/Buffs_Debuffs/blue/30094_Gargoyle_fly.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030098_Hit_DualWieldInEffect_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030099_Block_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030100_DefenseMastery_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030102_HealingSkill_InEffect_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030104_SpellFocusing_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030108_RageFocusing_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030110_Warding_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030111_TribulationBardAbility_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030115_Surge_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030116_Feint_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030119_Consecrate_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030144_GrapesofWrath_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030146_Horrific_Beast_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030147_Lich_Form_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030148_Vampric_Embrace_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030149_Wraith_Form_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030194_Curse_Weapon_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030195_Reaper_Form_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030196_Immolating_Weapon_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030197_Enchant_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030198_Honorable_Execution_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030199_Confidence_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030200_Evasion_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030201_Counter_Attack_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030202_Lightning_Strike_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030203_Momentum_Strike_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030204_Orange_Petals_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030205_RoseOfTrinsic_Petals_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030206_Poison_Immunity_Resistance_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030207_Veterinary_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030208_Perfection_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030209_Honored_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030210_Mana_Phase_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030231_Berserk_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030232_Searing_Weapon_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030233_Battle_Lust_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030234_Bard_Mastery_Bonus_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00030235_Town_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00049986_chalice_of_pilfering_protection.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00049990_hit_sparks_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00049991_swarm_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/00049992_broken_bone_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/02379_Inspire.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/02380_Invigorate.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/02381_Resilience.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/02382_Perseverance.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/20497_Basstastic.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/24031_virtue.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/24033_cora.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/24034_obelisk.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/24037_Meteor.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/24038_Mondo.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30012_Agility.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30013_Animal_Form.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30014_Arcane_Empowerment.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30015_Arch_protection.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30016_Attune_Weapon.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30018_Bless.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30019_Blood_Oath_caster.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30023_Cunning.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30029_Divine_Fury.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30030_Enemy_Of_One.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30032_Ethereal_Voyage.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30035_Gift_Of_Life.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30036_Gift_Of_Renewal.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30040_Invisibility.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30041_Magic_Reflection.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30046_Night_Sight.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30049_Polymorph.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30050_Protection.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30051_Reactive_Armor.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30055_Strength.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30073_Default_Green.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30075_Grapes_Of_Wrath.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30091_Stone_Form.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/30093_Gargoyle_Berserk.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39861_spirituality_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39862_mystic_weapon_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39863_conduit_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39864_mana_shield_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39865_ANTICIPATE_HIT_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39866_war_cry_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39867_shadow_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39868_whitetiger_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39869_thrust_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39870_toughness_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39871_focoused_eye_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39872_magnus_effect_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39873_called_shot_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39874_weapon_passive_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39875_bodyguard_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39876_heightened_scenes_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39877_poison_tolerance_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39878_rampage_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39879_wrestling_passive_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39880_scavenge_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39888_po_passive_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39889_shield_bash_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39890_death_ray_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39892_intuitionpassive_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39893_spell_passive_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39894_whispering_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39895_combattraining_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39896_injectionstrike_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39897_berry_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39898_boarding_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39901_humility_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39903_fof_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39935_stamina_protection.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/39936_paralyze_protection.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/40158_goblin_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/49993_hemolymph_concentrate_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/49994_prophylaxis_potion_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/49995_trance_tonic_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/49996_draft_of_might_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/49997_burn_poultice_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/green/49998_ambushers_essence_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00024035_Feint.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030096_Hit_LowerAttack_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030097_Hit_LowerDefense_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030105_SpellFocusing_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030107_RageFocusing_DEBUFF.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030112_ForceArrow_BUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030113_Disarm_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030117_TalonStrike_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030118_PsychicAttack_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030145_Enemy_Of_One_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030211_Fandancer_Fan_Fire_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030212_Rage_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030213_Webbing_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030214_Medusa_Stone_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030215_Dragon_Slasher_Fear_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030216_Aure_Of_Nausea_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030217_Howl_Of_Cacophony_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030218_Gaze_Despair_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030219_Hiryu_Physical_Resistance_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030220_Rune_Beetle_Corruption_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030221_Bloodworm_Anemia_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030222_Rotworm_Blood_Disease_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030223_Skill_Use_Delay_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030224_Faction_Stat_Loss_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030225_Heat_Of_Battle_Status_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030226_Criminal_Status_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030227_Armor_Pierce_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030228_Splintering_Effect_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030229_Swing_Speed_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00030230_Honorable_Execution_DEBUFF_EC.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00049990_Nerve_Strike_Debuff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00049987_hit_sparks_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00049988_swarm_buff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/00049989_broken_bone_buff.dds
+Reused path from content hash: Icons/Buffs_Debuffs/red/00049990_Nerve_Strike_Debuff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/30074_Default_Red.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/30090_Sleep.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/30092_Spell_Plague.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/30095_Mass_Sleep.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/39881_humility_debuff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/39882_ETHEREAL_BLAST_debuff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/39883_pierce_debuff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/39884_stagger_debuff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/39885_onslaught_debuff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/39886_magnus_effect_debuff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/39887_injection_strike_debuff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/39891_death_ray_debuff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/39899_playing_the_odds_debuff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/39900_dragonturtle_debuff.dds
+Using known hash mapping: Icons/Buffs_Debuffs/red/39902_thrust_debuff.dds
+Using known hash mapping: Icons/Buttons/AddParty.dds
+Using known hash mapping: Icons/Buttons/Bank.dds
+Using known hash mapping: Icons/Buttons/bod.dds
+Using known hash mapping: Icons/Buttons/bribe.dds
+Using known hash mapping: Icons/Buttons/Buy.dds
+Using known hash mapping: Icons/Buttons/kill.dds
+Using known hash mapping: Icons/Buttons/RemoveParty.dds
+Using known hash mapping: Icons/Buttons/Sell.dds
+Using known hash mapping: Icons/createfood.dds
+Matched path: Icons/actions/Snow_Elemental.dds -> 0xe3f14624915fd9bc
+Using known hash mapping: Icons/actions/Snow_Elemental.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Arcane_Gem.dds
+Using known hash mapping: Icons/Macro Icons/Generic/boards.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Cornucopia.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Fire_Front.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Fire_Left.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Fire_Right.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Fukiya.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Lobster.dds
+Using known hash mapping: Icons/Macro Icons/Generic/lobstertrap.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Mining_Grave.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Mining_Ore.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Mining_Sand.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Mortar_and_Pestle.dds
+Using known hash mapping: Icons/Macro Icons/Generic/PoF.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Pruning_Clippers.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Reload_Cannonball.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Reload_Grapeshot.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Repair_Ship.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Rose_of_Trinsic.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Smoke_Bomb.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Snake_Charmer.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Sow_Seeds.dds
+Using known hash mapping: Icons/Macro Icons/Generic/target.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Unlimited_Pitcher.dds
+Using known hash mapping: Icons/Macro Icons/Generic/Use_Bowls.dds
+Using known hash mapping: Icons/Macro Icons/Generic/whistle.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/00.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/01.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/02.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/03.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/04.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/05.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/06.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/07.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/08.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/09.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/10.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/11.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/12.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/13.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/14.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/15.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/16.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/17.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/18.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/19.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/20.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/21.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/22.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/23.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/24.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/25.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/26.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/27.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/28.dds
+Using known hash mapping: Icons/Macro Icons/Numbers/29.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Agility.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Conflagration.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Confusion_Blast.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Cure.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Cure_Heal.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Darkglow_Poison.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Empty.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Explosion.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Heal.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Invisibility.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Nightsight.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Nova.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Parasitic_Poison.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Poison.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Pull.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Refresh.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Stamina.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Strength.dds
+Using known hash mapping: Icons/Macro Icons/Potions/Str_Dex.dds
+Using known hash mapping: Icons/Macro Icons/Resources/metal_agapite.dds
+Using known hash mapping: Icons/Macro Icons/Resources/metal_bronze.dds
+Using known hash mapping: Icons/Macro Icons/Resources/metal_copper.dds
+Using known hash mapping: Icons/Macro Icons/Resources/metal_dull_copper.dds
+Using known hash mapping: Icons/Macro Icons/Resources/metal_golden.dds
+Using known hash mapping: Icons/Macro Icons/Resources/metal_iron.dds
+Using known hash mapping: Icons/Macro Icons/Resources/metal_shadow_iron.dds
+Using known hash mapping: Icons/Macro Icons/Resources/metal_valorite.dds
+Using known hash mapping: Icons/Macro Icons/Resources/metal_verite.dds
+Using known hash mapping: Icons/Macro Icons/Resources/wood_ash.dds
+Using known hash mapping: Icons/Macro Icons/Resources/wood_bloodwood.dds
+Using known hash mapping: Icons/Macro Icons/Resources/wood_frostwood.dds
+Using known hash mapping: Icons/Macro Icons/Resources/wood_heartwood.dds
+Using known hash mapping: Icons/Macro Icons/Resources/wood_oak.dds
+Using known hash mapping: Icons/Macro Icons/Resources/wood_plain.dds
+Using known hash mapping: Icons/Macro Icons/Resources/wood_yew.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Ankh.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Ant_Nest.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Bank.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Battle_Ground1.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Battle_Ground2.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Battle_Ground3.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Battle_Ground4.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Battle_Ground5.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Blacksmith.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Castle.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/City.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Dungeon1.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Dungeon2.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Dungeon3.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Dungeon4.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Dungeon5.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Friend1.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Friend2.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Friend3.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Friend4.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Friend5.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Guild.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Hag.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Moongate.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/My_Home1.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/My_Home2.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/My_Home3.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/My_Home4.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/My_Home5.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Ship.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Shop1.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Shop2.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Shop3.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Shop4.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Shop5.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Soulforge.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Soulforge_Queen.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Stable.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Tailor.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Tower.dds
+Using known hash mapping: Icons/Macro Icons/Rune Locations/Town.dds
+Using known hash mapping: Icons/noicon.dds
+Using known hash mapping: Icons/RacialAbilities/Berserk.dds
+Using known hash mapping: Icons/RacialAbilities/Deadly_Aim.dds
+Using known hash mapping: Icons/RacialAbilities/Difficult_to_Track.dds
+Using known hash mapping: Icons/RacialAbilities/Fly.dds
+Using known hash mapping: Icons/RacialAbilities/Infused_with_Magic.dds
+Using known hash mapping: Icons/RacialAbilities/Jack_of_All_Trades.dds
+Using known hash mapping: Icons/RacialAbilities/Knowledge_of_Nature.dds
+Using known hash mapping: Icons/RacialAbilities/Master_Artisan.dds
+Using known hash mapping: Icons/RacialAbilities/Mystic_Insight.dds
+Using known hash mapping: Icons/RacialAbilities/Night_Sight.dds
+Using known hash mapping: Icons/RacialAbilities/Perception.dds
+Using known hash mapping: Icons/RacialAbilities/Strong_Back.dds
+Using known hash mapping: Icons/RacialAbilities/Tough.dds
+Using known hash mapping: Icons/RacialAbilities/Wisdom.dds
+Using known hash mapping: Icons/RacialAbilities/Workhorse.dds
+Using known hash mapping: Icons/Skills/Alchemy.dds
+Using known hash mapping: Icons/Skills/Anatomy.dds
+Using known hash mapping: Icons/Skills/AnimalLore.dds
+Using known hash mapping: Icons/Skills/AnimalTaming.dds
+Using known hash mapping: Icons/Skills/Archery.dds
+Using known hash mapping: Icons/Skills/ArmsLore.dds
+Using known hash mapping: Icons/Skills/Begging.dds
+Using known hash mapping: Icons/Skills/Blacksmithy.dds
+Using known hash mapping: Icons/Skills/Bowcraft.dds
+Using known hash mapping: Icons/Skills/Bushido.dds
+Using known hash mapping: Icons/Skills/Camping.dds
+Using known hash mapping: Icons/Skills/Carpentry.dds
+Using known hash mapping: Icons/Skills/Cartography.dds
+Using known hash mapping: Icons/Skills/Chivalry.dds
+Using known hash mapping: Icons/Skills/Cooking.dds
+Using known hash mapping: Icons/Skills/DetectingHidden.dds
+Using known hash mapping: Icons/Skills/Discordance.dds
+Using known hash mapping: Icons/Skills/EvaluatingIntelligence.dds
+Using known hash mapping: Icons/Skills/Fencing.dds
+Using known hash mapping: Icons/Skills/Fishing.dds
+Using known hash mapping: Icons/Skills/focus.dds
+Using known hash mapping: Icons/Skills/ForensicEvaluation.dds
+Using known hash mapping: Icons/Skills/Healing.dds
+Using known hash mapping: Icons/Skills/Herding.dds
+Using known hash mapping: Icons/Skills/Hiding.dds
+Using known hash mapping: Icons/Skills/Imbuing.dds
+Using known hash mapping: Icons/Skills/Inscription.dds
+Using known hash mapping: Icons/Skills/ItemIdentification.dds
+Using known hash mapping: Icons/Skills/Lockpicking.dds
+Using known hash mapping: Icons/Skills/Lumberjack.dds
+Using known hash mapping: Icons/Skills/MaceFighting.dds
+Using known hash mapping: Icons/Skills/Magery.dds
+Using known hash mapping: Icons/Skills/meditation.dds
+Using known hash mapping: Icons/Skills/Mining.dds
+Using known hash mapping: Icons/Skills/Musicianship.dds
+Using known hash mapping: Icons/Skills/Mysticism.dds
+Using known hash mapping: Icons/Skills/Necromancy.dds
+Using known hash mapping: Icons/Skills/Ninjitsu.dds
+Using known hash mapping: Icons/Skills/Parrying.dds
+Using known hash mapping: Icons/Skills/Peacemaking.dds
+Using known hash mapping: Icons/Skills/Poisoning.dds
+Using known hash mapping: Icons/Skills/Provocation.dds
+Using known hash mapping: Icons/Skills/RemoveTrap.dds
+Using known hash mapping: Icons/Skills/ResistingSpells.dds
+Using known hash mapping: Icons/Skills/Snooping.dds
+Using known hash mapping: Icons/Skills/Spellweaving.dds
+Using known hash mapping: Icons/Skills/SpiritSpeak.dds
+Using known hash mapping: Icons/Skills/Stealing.dds
+Using known hash mapping: Icons/Skills/Stealth.dds
+Using known hash mapping: Icons/Skills/Swordsmanship.dds
+Using known hash mapping: Icons/Skills/Tactics.dds
+Using known hash mapping: Icons/Skills/Tailoring.dds
+Using known hash mapping: Icons/Skills/TasteIdentification.dds
+Using known hash mapping: Icons/Skills/Throwing.dds
+Using known hash mapping: Icons/Skills/Tinkering.dds
+Using known hash mapping: Icons/Skills/Tracking.dds
+Using known hash mapping: Icons/Skills/Veterinary.dds
+Using known hash mapping: Icons/Skills/Wrestling.dds
+Using known hash mapping: Icons/Spells/00002237_DeathStrike_EC.dds
+Using known hash mapping: Icons/Spells/00002304_Hit_LowerDefense_EC.dds
+Using known hash mapping: Icons/Spells/00002305_Hit_LowerAttack_EC.dds
+Using known hash mapping: Icons/Spells/00030103_SpellFocusing_EC.dds
+Using known hash mapping: Icons/Spells/00030106_RageFocusing_EC.dds
+Using known hash mapping: Icons/Spells/00030109_Warding_EC.dds
+Using known hash mapping: Icons/Spells/00030114_Surge_SPELL_EC.dds
+Using known hash mapping: Icons/Spells/Agility.dds
+Using known hash mapping: Icons/Spells/Air Elemental.dds
+Using known hash mapping: Icons/Spells/animal form.dds
+Using known hash mapping: Icons/Spells/animaltamingpassive.dds
+Using known hash mapping: Icons/Spells/animatedead.dds
+Using known hash mapping: Icons/Spells/Animated_Weapon.dds
+Using known hash mapping: Icons/Spells/anticipatehit.dds
+Using known hash mapping: Icons/Spells/arcanecircle.dds
+Using known hash mapping: Icons/Spells/arcaneempowerment.dds
+Using known hash mapping: Icons/Spells/Archcure.dds
+Using known hash mapping: Icons/Spells/Archprotection.dds
+Using known hash mapping: Icons/Spells/attuneweapon.dds
+Using known hash mapping: Icons/Spells/Background_Base.dds
+Using known hash mapping: Icons/Spells/backstab.dds
+Using known hash mapping: Icons/Spells/Blade Spirits.dds
+Using known hash mapping: Icons/Spells/Bless.dds
+Using known hash mapping: Icons/Spells/bloodoath.dds
+Using known hash mapping: Icons/Spells/bodyguard.dds
+Using known hash mapping: Icons/Spells/Bombard.dds
+Using known hash mapping: Icons/Spells/calledshot.dds
+Using known hash mapping: Icons/Spells/Chain Lightning.dds
+Using known hash mapping: Icons/Spells/Circle 1.dds
+Using known hash mapping: Icons/Spells/Circle 2.dds
+Using known hash mapping: Icons/Spells/Circle 3.dds
+Using known hash mapping: Icons/Spells/Circle 4.dds
+Using known hash mapping: Icons/Spells/Circle 5.dds
+Using known hash mapping: Icons/Spells/Circle 6.dds
+Using known hash mapping: Icons/Spells/Circle 7.dds
+Using known hash mapping: Icons/Spells/Circle 8.dds
+Using known hash mapping: Icons/Spells/cleansebyfire.dds
+Using known hash mapping: Icons/Spells/Cleansing_Winds.dds
+Using known hash mapping: Icons/Spells/closewounds.dds
+Using known hash mapping: Icons/Spells/Clumsy.dds
+Using known hash mapping: Icons/Spells/combattraining.dds
+Using known hash mapping: Icons/Spells/commandundead.dds
+Using known hash mapping: Icons/Spells/companionship.dds
+Using known hash mapping: Icons/Spells/conduit.dds
+Using known hash mapping: Icons/Spells/confidence.dds
+Using known hash mapping: Icons/Spells/consecrateweapon.dds
+Using known hash mapping: Icons/Spells/corpseskin.dds
+Using known hash mapping: Icons/Spells/counter attack.dds
+Using known hash mapping: Icons/Spells/Create Food.dds
+Using known hash mapping: Icons/Spells/Cunning.dds
+Using known hash mapping: Icons/Spells/Cure.dds
+Using known hash mapping: Icons/Spells/Curse.dds
+Using known hash mapping: Icons/Spells/curseweapon.dds
+Using known hash mapping: Icons/Spells/death strike.dds
+Using known hash mapping: Icons/Spells/deathray.dds
+Using known hash mapping: Icons/Spells/despair.dds
+Using known hash mapping: Icons/Spells/Dispel Field.dds
+Using known hash mapping: Icons/Spells/Dispel.dds
+Using known hash mapping: Icons/Spells/dispelevil.dds
+Using known hash mapping: Icons/Spells/divinefury.dds
+Using known hash mapping: Icons/Spells/dryadallure.dds
+Using known hash mapping: Icons/Spells/Eagle_Strike.dds
+Using known hash mapping: Icons/Spells/Earth Elemental.dds
+Using known hash mapping: Icons/Spells/Earthquake.dds
+Using known hash mapping: Icons/Spells/Enchant.dds
+Using known hash mapping: Icons/Spells/enemyofone.dds
+Using known hash mapping: Icons/Spells/Energy Bolt.dds
+Using known hash mapping: Icons/Spells/Energy Field.dds
+Using known hash mapping: Icons/Spells/Energy Vortex.dds
+Using known hash mapping: Icons/Spells/essenceofwind.dds
+Using known hash mapping: Icons/Spells/etherealblast.dds
+Using known hash mapping: Icons/Spells/etherealvoyage.dds
+Using known hash mapping: Icons/Spells/evasion.dds
+Using known hash mapping: Icons/Spells/evilomen.dds
+Using known hash mapping: Icons/Spells/exorcism.dds
+Using known hash mapping: Icons/Spells/Explosion.dds
+Using known hash mapping: Icons/Spells/Feeblemind.dds
+Using known hash mapping: Icons/Spells/Fire Elemental.dds
+Using known hash mapping: Icons/Spells/Fire Field.dds
+Using known hash mapping: Icons/Spells/Fireball.dds
+Using known hash mapping: Icons/Spells/fistoffury.dds
+Using known hash mapping: Icons/Spells/Flamestrike.dds
+Using known hash mapping: Icons/Spells/flamingshot.dds
+Using known hash mapping: Icons/Spells/focus attack.dds
+Using known hash mapping: Icons/Spells/focusedeye.dds
+Using known hash mapping: Icons/Spells/Gate Travel.dds
+Using known hash mapping: Icons/Spells/giftoflife.dds
+Using known hash mapping: Icons/Spells/GiftofRenewal.dds
+Using known hash mapping: Icons/Spells/Greater Heal.dds
+Using known hash mapping: Icons/Spells/Hail_Storm.dds
+Using known hash mapping: Icons/Spells/Harm.dds
+Using known hash mapping: Icons/Spells/Heal.dds
+Using known hash mapping: Icons/Spells/Healing_Stone.dds
+Using known hash mapping: Icons/Spells/heightenedsenses.dds
+Using known hash mapping: Icons/Spells/holyfist.dds
+Using known hash mapping: Icons/Spells/holylight.dds
+Using known hash mapping: Icons/Spells/honorable execution.dds
+Using known hash mapping: Icons/Spells/horrificbeast.dds
+Using known hash mapping: Icons/Spells/husbandry.dds
+Using known hash mapping: Icons/Spells/ImmolatingWeapon.dds
+Using known hash mapping: Icons/Spells/Incognito.dds
+Using known hash mapping: Icons/Spells/injectionstrike.dds
+Using known hash mapping: Icons/Spells/inspire.dds
+Using known hash mapping: Icons/Spells/intuitionpassive.dds
+Using known hash mapping: Icons/Spells/invigorate.dds
+Using known hash mapping: Icons/Spells/Invisibility.dds
+Using known hash mapping: Icons/Spells/ki attack.dds
+Using known hash mapping: Icons/Spells/lichform.dds
+Using known hash mapping: Icons/Spells/lightning strike.dds
+Using known hash mapping: Icons/Spells/Lightning.dds
+Using known hash mapping: Icons/Spells/Magic Arrow.dds
+Using known hash mapping: Icons/Spells/Magic Lock.dds
+Using known hash mapping: Icons/Spells/Magic Reflection.dds
+Using known hash mapping: Icons/Spells/Magic Trap.dds
+Using known hash mapping: Icons/Spells/Magic Untrap.dds
+Using known hash mapping: Icons/Spells/magnuseffect.dds
+Using known hash mapping: Icons/Spells/Mana Drain.dds
+Using known hash mapping: Icons/Spells/Mana Vampire.dds
+Using known hash mapping: Icons/Spells/manashield.dds
+Using known hash mapping: Icons/Spells/Mark.dds
+Using known hash mapping: Icons/Spells/Mass Curse.dds
+Using known hash mapping: Icons/Spells/Mass Dispel.dds
+Using known hash mapping: Icons/Spells/Mass_Sleep.dds
+Using known hash mapping: Icons/Spells/Meteor Swarm.dds
+Using known hash mapping: Icons/Spells/Mind Blast.dds
+Using known hash mapping: Icons/Spells/mindrot.dds
+Using known hash mapping: Icons/Spells/mirror image.dds
+Using known hash mapping: Icons/Spells/momentum strike.dds
+Using known hash mapping: Icons/Spells/mysticweapon.dds
+Using known hash mapping: Icons/Spells/naturesFury.dds
+Using known hash mapping: Icons/Spells/netherblast.dds
+Using known hash mapping: Icons/Spells/Nether_Bolt.dds
+Using known hash mapping: Icons/Spells/Nether_Cyclone.dds
+Using known hash mapping: Icons/Spells/Night Sight.dds
+Using known hash mapping: Icons/Spells/noblesacrifice.dds
+Using known hash mapping: Icons/Spells/onslaught.dds
+Using known hash mapping: Icons/Spells/painspike.dds
+Using known hash mapping: Icons/Spells/Paralyze Field.dds
+Using known hash mapping: Icons/Spells/Paralyze.dds
+Using known hash mapping: Icons/Spells/perseverance.dds
+Using known hash mapping: Icons/Spells/pierce.dds
+Using known hash mapping: Icons/Spells/Poison Field.dds
+Using known hash mapping: Icons/Spells/Poison.dds
+Using known hash mapping: Icons/Spells/poisonpassive.dds
+Using known hash mapping: Icons/Spells/poisonstrike.dds
+Using known hash mapping: Icons/Spells/poisontolerance.dds
+Using known hash mapping: Icons/Spells/Polymorph.dds
+Using known hash mapping: Icons/Spells/Protection.dds
+Using known hash mapping: Icons/Spells/Purge_Magic.dds
+Using known hash mapping: Icons/Spells/rampage.dds
+Using known hash mapping: Icons/Spells/Reactive Armor.dds
+Using known hash mapping: Icons/Spells/reaperform.dds
+Using known hash mapping: Icons/Spells/Recall.dds
+Using known hash mapping: Icons/Spells/rejuvenate.dds
+Using known hash mapping: Icons/Spells/removecurse.dds
+Using known hash mapping: Icons/Spells/resilience.dds
+Using known hash mapping: Icons/Spells/Resurrection.dds
+Using known hash mapping: Icons/Spells/Reveal.dds
+Using known hash mapping: Icons/Spells/Rising_Colossus.dds
+Using known hash mapping: Icons/Spells/sacredjourney.dds
+Using known hash mapping: Icons/Spells/scavenge.dds
+Using known hash mapping: Icons/Spells/shadow.dds
+Using known hash mapping: Icons/Spells/shadowjump.dds
+Using known hash mapping: Icons/Spells/shieldbash.dds
+Using known hash mapping: Icons/Spells/Sleep.dds
+Using known hash mapping: Icons/Spells/spellpassive.dds
+Using known hash mapping: Icons/Spells/Spell_Plague.dds
+Using known hash mapping: Icons/Spells/Spell_Trigger.dds
+Using known hash mapping: Icons/Spells/stagger.dds
+Using known hash mapping: Icons/Spells/Stone_Form.dds
+Using known hash mapping: Icons/Spells/strangle.dds
+Using known hash mapping: Icons/Spells/Strength.dds
+Using known hash mapping: Icons/Spells/Summon Creature.dds
+Using known hash mapping: Icons/Spells/Summon Daemon.dds
+Using known hash mapping: Icons/Spells/summonfamiliar.dds
+Using known hash mapping: Icons/Spells/SummonFey.dds
+Using known hash mapping: Icons/Spells/summonreaper.dds
+Using known hash mapping: Icons/Spells/Summon_fiend.dds
+Using known hash mapping: Icons/Spells/surprise attack.dds
+Using known hash mapping: Icons/Spells/Telekinesis.dds
+Using known hash mapping: Icons/Spells/Teleport.dds
+Using known hash mapping: Icons/Spells/thrust.dds
+Using known hash mapping: Icons/Spells/thunderstorm.dds
+Using known hash mapping: Icons/Spells/toughness.dds
+Using known hash mapping: Icons/Spells/tribulation.dds
+Using known hash mapping: Icons/Spells/Unlock.dds
+Using known hash mapping: Icons/Spells/vampiricembrace.dds
+Using known hash mapping: Icons/Spells/vengefulspirit.dds
+Using known hash mapping: Icons/Spells/Wall of Stone.dds
+Using known hash mapping: Icons/Spells/warcry.dds
+Using known hash mapping: Icons/Spells/Water Elemental.dds
+Using known hash mapping: Icons/Spells/Weaken.dds
+Using known hash mapping: Icons/Spells/weaponpassive.dds
+Using known hash mapping: Icons/Spells/whispering.dds
+Using known hash mapping: Icons/Spells/whitetiger.dds
+Using known hash mapping: Icons/Spells/wildfire.dds
+Using known hash mapping: Icons/Spells/wither.dds
+Using known hash mapping: Icons/Spells/wordofdeath.dds
+Using known hash mapping: Icons/Spells/wraithform.dds
+Using known hash mapping: Icons/Spells/wrestlingpassive.dds
+Using known hash mapping: Icons/sprint.dds
+Using known hash mapping: Icons/Stats/balanced.dds
+Using known hash mapping: Icons/Stats/battle_lust.dds
+Using known hash mapping: Icons/Stats/blood_drink.dds
+Using known hash mapping: Icons/Stats/Cast_Focus.dds
+Using known hash mapping: Icons/Stats/Cold.dds
+Using known hash mapping: Icons/Stats/Cold_Eater.dds
+Using known hash mapping: Icons/Stats/Cold_Resonance.dds
+Using known hash mapping: Icons/Stats/Damage.dds
+Using known hash mapping: Icons/Stats/Damage_Eater.dds
+Using known hash mapping: Icons/Stats/Damage_Increase.dds
+Using known hash mapping: Icons/Stats/Defense_Chance_Increase.dds
+Using known hash mapping: Icons/Stats/Dex.dds
+Using known hash mapping: Icons/Stats/Energy.dds
+Using known hash mapping: Icons/Stats/Energy_Eater.dds
+Using known hash mapping: Icons/Stats/Energy_Resonance.dds
+Using known hash mapping: Icons/Stats/Enhance_Potion.dds
+Using known hash mapping: Icons/Stats/Faster_Cast.dds
+Using known hash mapping: Icons/Stats/Faster_Cast_Recovery.dds
+Using known hash mapping: Icons/Stats/Fire.dds
+Using known hash mapping: Icons/Stats/Fire_Eater.dds
+Using known hash mapping: Icons/Stats/Fire_Resonance.dds
+Using known hash mapping: Icons/Stats/Gold.dds
+Using known hash mapping: Icons/Stats/Health.dds
+Using known hash mapping: Icons/Stats/Health_warning.dds
+Using known hash mapping: Icons/Stats/Hit_Chance_Increase.dds
+Using known hash mapping: Icons/Stats/hit_cold_area.dds
+Using known hash mapping: Icons/Stats/hit_curse.dds
+Using known hash mapping: Icons/Stats/hit_dispel.dds
+Using known hash mapping: Icons/Stats/hit_energy_area.dds
+Using known hash mapping: Icons/Stats/hit_fatigue.dds
+Using known hash mapping: Icons/Stats/hit_fireball.dds
+Using known hash mapping: Icons/Stats/hit_fire_area.dds
+Using known hash mapping: Icons/Stats/hit_harm.dds
+Using known hash mapping: Icons/Stats/hit_life_drain.dds
+Using known hash mapping: Icons/Stats/hit_life_leech.dds
+Using known hash mapping: Icons/Stats/hit_lightning.dds
+Using known hash mapping: Icons/Stats/hit_lower_attack.dds
+Using known hash mapping: Icons/Stats/hit_lower_defense.dds
+Using known hash mapping: Icons/Stats/hit_magic_arrow.dds
+Using known hash mapping: Icons/Stats/hit_mana_drain.dds
+Using known hash mapping: Icons/Stats/hit_mana_leech.dds
+Using known hash mapping: Icons/Stats/hit_physical_area.dds
+Using known hash mapping: Icons/Stats/Hit_points_Regeneration.dds
+Using known hash mapping: Icons/Stats/hit_poison_area.dds
+Using known hash mapping: Icons/Stats/hit_stamina_leech.dds
+Using known hash mapping: Icons/Stats/Int.dds
+Using known hash mapping: Icons/Stats/Kinetic_Eater.dds
+Using known hash mapping: Icons/Stats/Kinetic_Resonance.dds
+Using known hash mapping: Icons/Stats/Lower_Mana_cost.dds
+Using known hash mapping: Icons/Stats/Lower_Reagent_Cost.dds
+Using known hash mapping: Icons/Stats/Luck.dds
+Using known hash mapping: Icons/Stats/Mana.dds
+Using known hash mapping: Icons/Stats/Mana_regen.dds
+Using known hash mapping: Icons/Stats/Mana_warning.dds
+Using known hash mapping: Icons/Stats/medable_suit.dds
+Using known hash mapping: Icons/Stats/newgold.dds
+Using known hash mapping: Icons/Stats/newplatinum.dds
+Using known hash mapping: Icons/Stats/perma_night_sight.dds
+Using known hash mapping: Icons/Stats/Pets.dds
+Using known hash mapping: Icons/Stats/Physical.dds
+Using known hash mapping: Icons/Stats/Poison.dds
+Using known hash mapping: Icons/Stats/Poison_Eater.dds
+Using known hash mapping: Icons/Stats/Poison_Resonance.dds
+Using known hash mapping: Icons/Stats/reactive_paralyze.dds
+Using known hash mapping: Icons/Stats/Reflect_Damage.dds
+Using known hash mapping: Icons/Stats/Soul_Charge.dds
+Using known hash mapping: Icons/Stats/spell_channeling_s.dds
+Using known hash mapping: Icons/Stats/spell_channeling_w.dds
+Using known hash mapping: Icons/Stats/Spell_Damage_Increase.dds
+Using known hash mapping: Icons/Stats/splintering_weapon.dds
+Using known hash mapping: Icons/Stats/Stamina.dds
+Using known hash mapping: Icons/Stats/Stamina_regen.dds
+Using known hash mapping: Icons/Stats/Stamina_warning.dds
+Using known hash mapping: Icons/Stats/Strength.dds
+Using known hash mapping: Icons/Stats/Swing_Speed.dds
+Using known hash mapping: Icons/Stats/Tithing.dds
+Using known hash mapping: Icons/Stats/Tot_Stats.dds
+Using known hash mapping: Icons/Stats/velocity.dds
+Using known hash mapping: Icons/Stats/Weight.dds
+Using known hash mapping: Icons/Stats/Weight_warning.dds
+Using known hash mapping: Icons/Tarot/Tarot_Death.dds
+Using known hash mapping: Icons/Tarot/Tarot_Death_inverted.dds
+Using known hash mapping: Icons/Tarot/Tarot_Justice.dds
+Using known hash mapping: Icons/Tarot/Tarot_Justice_inverted.dds
+Using known hash mapping: Icons/Tarot/Tarot_Priestess.dds
+Using known hash mapping: Icons/Tarot/Tarot_Priestess_inverted.dds
+Using known hash mapping: Icons/Tarot/Tarot_TheFool.dds
+Using known hash mapping: Icons/Tarot/Tarot_TheFool_inverted.dds
+Using known hash mapping: Icons/Tarot/Tarot_TheHangedMan.dds
+Using known hash mapping: Icons/Tarot/Tarot_TheHangedMan_inverted.dds
+Using known hash mapping: Icons/Tarot/Tarot_TheMage.dds
+Using known hash mapping: Icons/Tarot/Tarot_TheMage_inverted.dds
+Using known hash mapping: Icons/Tarot/Tarot_TheStar.dds
+Using known hash mapping: Icons/Tarot/Tarot_TheStar_inverted.dds
+Using known hash mapping: Icons/Tarot/Tarot_TheTower.dds
+Using known hash mapping: Icons/Tarot/Tarot_TheTower_inverted.dds
+Using known hash mapping: Icons/Tarot/Tarot_TheWorld.dds
+Using known hash mapping: Icons/Tarot/Tarot_TheWorld_inverted.dds
+Using known hash mapping: Icons/Tarot/Tarot_WheelofFortune.dds
+Using known hash mapping: Icons/Tarot/Tarot_WheelofFortune_inverted.dds
+Using known hash mapping: Icons/Waypoints/alchemy_01_large.dds
+Using known hash mapping: Icons/Waypoints/alchemy_01_small.dds
+Using known hash mapping: Icons/Waypoints/baker_01_large.dds
+Using known hash mapping: Icons/Waypoints/baker_01_small.dds
+Using known hash mapping: Icons/Waypoints/bank_01_large.dds
+Using known hash mapping: Icons/Waypoints/bank_01_small.dds
+Using known hash mapping: Icons/Waypoints/barber_01_large.dds
+Using known hash mapping: Icons/Waypoints/barber_01_small.dds
+Using known hash mapping: Icons/Waypoints/bard_01_large.dds
+Using known hash mapping: Icons/Waypoints/bard_01_small.dds
+Using known hash mapping: Icons/Waypoints/blacksmith_01_large.dds
+Using known hash mapping: Icons/Waypoints/blacksmith_01_small.dds
+Using known hash mapping: Icons/Waypoints/boat.dds
+Using known hash mapping: Icons/Waypoints/bowyer_01_large.dds
+Using known hash mapping: Icons/Waypoints/bowyer_01_small.dds
+Using known hash mapping: Icons/Waypoints/butcher_01_large.dds
+Using known hash mapping: Icons/Waypoints/butcher_01_small.dds
+Using known hash mapping: Icons/Waypoints/carpenter_01_large.dds
+Using known hash mapping: Icons/Waypoints/carpenter_01_small.dds
+Using known hash mapping: Icons/Waypoints/cemetery.dds
+Using known hash mapping: Icons/Waypoints/cities_01_large.dds
+Using known hash mapping: Icons/Waypoints/cities_01_med.dds
+Using known hash mapping: Icons/Waypoints/cities_01_small.dds
+Using known hash mapping: Icons/Waypoints/cities_02_large.dds
+Using known hash mapping: Icons/Waypoints/corpse_01_large.dds
+Using known hash mapping: Icons/Waypoints/corpse_01_med.dds
+Using known hash mapping: Icons/Waypoints/corpse_01_small.dds
+Using known hash mapping: Icons/Waypoints/corpse_02_large.dds
+Using known hash mapping: Icons/Waypoints/customs.dds
+Using known hash mapping: Icons/Waypoints/custom_01_large.dds
+Using known hash mapping: Icons/Waypoints/custom_01_med.dds
+Using known hash mapping: Icons/Waypoints/custom_01_small.dds
+Using known hash mapping: Icons/Waypoints/custom_02_large.dds
+Using known hash mapping: Icons/Waypoints/Dock.dds
+Using known hash mapping: Icons/Waypoints/dungeon_02_large.dds
+Using known hash mapping: Icons/Waypoints/exit.dds
+Using known hash mapping: Icons/Waypoints/eye.dds
+Using known hash mapping: Icons/Waypoints/fletcher_01_large.dds
+Using known hash mapping: Icons/Waypoints/fletcher_01_small.dds
+Using known hash mapping: Icons/Waypoints/gate.dds
+Using known hash mapping: Icons/Waypoints/guilds_01_large.dds
+Using known hash mapping: Icons/Waypoints/healer_01_large.dds
+Using known hash mapping: Icons/Waypoints/healer_01_med.dds
+Using known hash mapping: Icons/Waypoints/healer_01_small.dds
+Using known hash mapping: Icons/Waypoints/healer_02_large.dds
+Using known hash mapping: Icons/Waypoints/healer_02_small.dds
+Using known hash mapping: Icons/Waypoints/inn_01_large.dds
+Using known hash mapping: Icons/Waypoints/inn_01_small.dds
+Using known hash mapping: Icons/Waypoints/jeweler_01_large.dds
+Using known hash mapping: Icons/Waypoints/jeweler_01_small.dds
+Using known hash mapping: Icons/Waypoints/landmark_01_large.dds
+Using known hash mapping: Icons/Waypoints/leather.dds
+Using known hash mapping: Icons/Waypoints/mage_01_large.dds
+Using known hash mapping: Textures/mapX.dds
+Using known hash mapping: Icons/Waypoints/moongate_01_large.dds
+Using known hash mapping: Icons/Waypoints/moongate_01_med.dds
+Using known hash mapping: Icons/Waypoints/moongate_01_small.dds
+Using known hash mapping: Icons/Waypoints/moongate_02_large.dds
+Using known hash mapping: Icons/Waypoints/painter_01_large.dds
+Using known hash mapping: Icons/Waypoints/painter_01_small.dds
+Using known hash mapping: Icons/Waypoints/party.dds
+Using known hash mapping: Icons/Waypoints/party_01_large.dds
+Using known hash mapping: Icons/Waypoints/party_01_med.dds
+Using known hash mapping: Icons/Waypoints/party_01_small.dds
+Using known hash mapping: Icons/Waypoints/pillar.dds
+Using known hash mapping: Icons/Waypoints/pin_01_black.dds
+Using known hash mapping: Icons/Waypoints/pin_01_blue.dds
+Using known hash mapping: Icons/Waypoints/pin_01_goldskull.dds
+Using known hash mapping: Icons/Waypoints/pin_01_green.dds
+Using known hash mapping: Icons/Waypoints/pin_01_pink.dds
+Using known hash mapping: Icons/Waypoints/pin_01_purple.dds
+Using known hash mapping: Icons/Waypoints/pin_01_red.dds
+Using known hash mapping: Icons/Waypoints/pin_01_yellow.dds
+Using known hash mapping: Icons/Waypoints/pin_02_black.dds
+Using known hash mapping: Icons/Waypoints/pin_02_blue.dds
+Using known hash mapping: Icons/Waypoints/pin_02_green.dds
+Using known hash mapping: Icons/Waypoints/pin_02_purple.dds
+Using known hash mapping: Icons/Waypoints/pin_02_red.dds
+Using known hash mapping: Icons/Waypoints/pin_02_yellow.dds
+Using known hash mapping: Icons/Waypoints/pin_03_blue.dds
+Using known hash mapping: Icons/Waypoints/pin_03_green.dds
+Using known hash mapping: Icons/Waypoints/pin_03_pink.dds
+Using known hash mapping: Icons/Waypoints/pin_03_purple.dds
+Using known hash mapping: Icons/Waypoints/pin_03_red.dds
+Using known hash mapping: Icons/Waypoints/pin_coingold.dds
+Using known hash mapping: Icons/Waypoints/pin_coinsilver.dds
+Using known hash mapping: Icons/Waypoints/player_01_large.dds
+Using known hash mapping: Icons/Waypoints/player_01_med.dds
+Using known hash mapping: Icons/Waypoints/player_01_small.dds
+Using known hash mapping: Icons/Waypoints/POI_01_large.dds
+Using known hash mapping: Icons/Waypoints/POI_01_med.dds
+Using known hash mapping: Icons/Waypoints/POI_01_small.dds
+Using known hash mapping: Icons/Waypoints/POI_02_large.dds
+Using known hash mapping: Icons/Waypoints/provisioner_01_large.dds
+Using known hash mapping: Icons/Waypoints/provisioner_01_small.dds
+Using known hash mapping: Icons/Waypoints/quest.dds
+Using known hash mapping: Icons/Waypoints/reagents_01_large.dds
+Using known hash mapping: Icons/Waypoints/reagents_01_small.dds
+Using known hash mapping: Icons/Waypoints/shipwright_01_large.dds
+Using known hash mapping: Icons/Waypoints/shipwright_01_small.dds
+Using known hash mapping: Icons/Waypoints/shops_01_large.dds
+Using known hash mapping: Icons/Waypoints/shops_01_med.dds
+Using known hash mapping: Icons/Waypoints/shops_01_small.dds
+Using known hash mapping: Icons/Waypoints/shops_02_large.dds
+Using known hash mapping: Icons/Waypoints/shops_02_small.dds
+Using known hash mapping: Icons/Waypoints/shrine_01_large.dds
+Using known hash mapping: Icons/Waypoints/shrine_01_med.dds
+Using known hash mapping: Icons/Waypoints/shrine_01_small.dds
+Using known hash mapping: Icons/Waypoints/shrine_02_large.dds
+Using known hash mapping: Icons/Waypoints/sink.dds
+Using known hash mapping: Icons/Waypoints/special_01_large.dds
+Using known hash mapping: Icons/Waypoints/special_01_med.dds
+Using known hash mapping: Icons/Waypoints/special_01_small.dds
+Using known hash mapping: Icons/Waypoints/stables_01_large.dds
+Using known hash mapping: Icons/Waypoints/stables_01_small.dds
+Using known hash mapping: Icons/Waypoints/stairs.dds
+Using known hash mapping: Icons/Waypoints/tailor_01_large.dds
+Using known hash mapping: Icons/Waypoints/tailor_01_small.dds
+Using known hash mapping: Icons/Waypoints/target.dds
+Using known hash mapping: Icons/Waypoints/tavern_01_large.dds
+Using known hash mapping: Icons/Waypoints/tavern_01_small.dds
+Using known hash mapping: Icons/Waypoints/teleporter.dds
+Using known hash mapping: Icons/Waypoints/theater_01_large.dds
+Using known hash mapping: Icons/Waypoints/theater_01_small.dds
+Using known hash mapping: Icons/Waypoints/tinker_01_large.dds
+Using known hash mapping: Icons/Waypoints/tinker_01_small.dds
+Using known hash mapping: Icons/Waypoints/waves.dds
+Using known hash mapping: Icons/WeaponSpecials/armorignore.dds
+Using known hash mapping: Icons/WeaponSpecials/armor_pierce.dds
+Using known hash mapping: Icons/WeaponSpecials/bladeweave.dds
+Using known hash mapping: Icons/WeaponSpecials/bleedattack.dds
+Using known hash mapping: Icons/WeaponSpecials/block.dds
+Using known hash mapping: Icons/WeaponSpecials/concussionblow.dds
+Using known hash mapping: Icons/WeaponSpecials/crushingblow.dds
+Using known hash mapping: Icons/WeaponSpecials/defenseMastery.dds
+Using known hash mapping: Icons/WeaponSpecials/disarm.dds
+Using known hash mapping: Icons/WeaponSpecials/dismount.dds
+Using known hash mapping: Icons/WeaponSpecials/doubleshot.dds
+Using known hash mapping: Icons/WeaponSpecials/doublestrike.dds
+Using known hash mapping: Icons/WeaponSpecials/dualwield.dds
+Using known hash mapping: Icons/WeaponSpecials/feint.dds
+Using known hash mapping: Icons/WeaponSpecials/forcearrow.dds
+Using known hash mapping: Icons/WeaponSpecials/ForceofNature.dds
+Using known hash mapping: Icons/WeaponSpecials/frenziedWhirlwind.dds
+Using known hash mapping: Icons/WeaponSpecials/infectiousstrike.dds
+Using known hash mapping: Icons/WeaponSpecials/Infused_Throw.dds
+Using known hash mapping: Icons/WeaponSpecials/lightningarrow.dds
+Using known hash mapping: Icons/WeaponSpecials/mortalstrike.dds
+Using known hash mapping: Icons/WeaponSpecials/movingshot.dds
+Using known hash mapping: Icons/WeaponSpecials/Mystic_Arc.dds
+Using known hash mapping: Icons/WeaponSpecials/NerveStrike.dds
+Using known hash mapping: Icons/WeaponSpecials/paralyzingblow.dds
+Using known hash mapping: Icons/WeaponSpecials/PsychicAttack.dds
+Using known hash mapping: Icons/WeaponSpecials/ridingswipe.dds
+Using known hash mapping: Icons/WeaponSpecials/serpentarrow.dds
+Using known hash mapping: Icons/WeaponSpecials/shadowstrike.dds
+Using known hash mapping: Icons/WeaponSpecials/talonstrike.dds
+Using known hash mapping: Icons/WeaponSpecials/whirlwind.dds
+Using known hash mapping: Interface.lua
+Matched path: Source/HealthBarColor.lua -> 0x5f3646d330776926
+Using known hash mapping: Source/HealthBarColor.lua
+Using known hash mapping: Source/AbilitiesInfo.lua
+Using known hash mapping: Source/ActionEditWindow.lua
+Using known hash mapping: Source/ActionEditWindow.xml
+Using known hash mapping: Source/Actions.lua
+Using known hash mapping: Source/ActionsWindow.lua
+Using known hash mapping: Source/ActionsWindow.xml
+Using known hash mapping: Source/AdvancedBuff.lua
+Using known hash mapping: Source/AdvancedBuff.xml
+Using known hash mapping: Source/BookTemplate.lua
+Near miss for Source/BookTemplate.lua:
+Expected: 0xccd7bf1d7fce7b15
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/BookTemplate.xml
+Using known hash mapping: Source/BuffDebuffWindow.lua
+Using known hash mapping: Source/BuffDebuffWindow.xml
+Using known hash mapping: Source/BugReportWindow.lua
+Using known hash mapping: Source/BugReportWindow.xml
+Using known hash mapping: Source/CenterScreenText.lua
+Using known hash mapping: Source/CenterScreenText.xml
+Using known hash mapping: Source/ChannelWindow.lua
+Using known hash mapping: Source/ChannelWindow.xml
+Using known hash mapping: Source/CharacterAbilities.lua
+Using known hash mapping: Source/CharacterAbilities.xml
+Using known hash mapping: Source/CharacterSheet.lua
+Using known hash mapping: Source/CharacterSheet.xml
+Using known hash mapping: Source/Compass.lua
+Using known hash mapping: Source/Compass.xml
+Using known hash mapping: Source/ContainerSearch.lua
+Using known hash mapping: Source/ContainerSearch.xml
+Using known hash mapping: Source/ContainersInfo.lua
+Using known hash mapping: Source/ContainerWindow.lua
+Using known hash mapping: Source/ContainerWindow.xml
+Using known hash mapping: Source/ContextMenu.lua
+Near miss for Source/ContextMenu.lua:
+Expected: 0x4b7fdfe185830b18
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/ContextMenu.xml
+Using known hash mapping: Source/Cooldown.lua
+Near miss for Source/Cooldown.lua:
+Expected: 0xba52a6d9164516b2
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/Cooldown.xml
+Using known hash mapping: Source/CourseMapWindow.lua
+Using known hash mapping: Source/CourseMapWindow.xml
+Using known hash mapping: Source/CraftingWindow.lua
+Near miss for Source/Generic/TextEntry.lua:
+Expected: 0xa6fce1ab98017197
+Got:      0x5f3646d330776926
+Near miss for Source/CraftingWindow.lua:
+Expected: 0xa6fce1ab98017197
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/CraftingWindow.xml
+Using known hash mapping: Source/CraftingWindow2.lua
+Near miss for Source/CraftingWindow2.lua:
+Expected: 0xb042bb7a5a32e748
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/CraftingWindow2.xml
+Using known hash mapping: Source/CreaturesDB.lua
+Using known hash mapping: Source/CrystalPortal.lua
+Using known hash mapping: Source/CrystalPortal.xml
+Using known hash mapping: Source/CSVUtilities.lua
+Using known hash mapping: Source/CustomizeHouseWindow.lua
+Near miss for Source/CustomizeHouseWindow.lua:
+Expected: 0x0549876e5f46241c
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/CustomizeHouseWindow.xml
+Using known hash mapping: Source/DamageWindow.lua
+Near miss for Source/DamageWindow.lua:
+Expected: 0xeba0980bfb3916d2
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/DamageWindow.xml
+Using known hash mapping: Source/DragWindow.lua
+Near miss for Source/DragWindow.lua:
+Expected: 0xe11d31e7d256ba81
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/DragWindow.xml
+Using known hash mapping: Source/FaceSelectionWindow.lua
+Using known hash mapping: Source/FaceSelectionWindow.xml
+Using known hash mapping: Source/FontSelector.lua
+Near miss for Source/FontSelector.lua:
+Expected: 0x7329dbb648c4733b
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/FontSelector.xml
+Using known hash mapping: Source/GChatRoster.lua
+Near miss for Source/GChatRoster.lua:
+Expected: 0x914a62b9d233db2a
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/GChatRoster.xml
+Near miss for Source/Generic/NewPlayerInstruction.lua:
+Expected: 0xa3c00c040a4496ef
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/Generic/NewPlayerInstruction.xml
+Near miss for Source/Generic/Runebook.lua:
+Expected: 0x24bf7f4307b7029a
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/Generic/Runebook.xml
+Near miss for Source/Generic/SingleLineTextEntry.lua:
+Expected: 0x0005a305629a2fa2
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/Generic/SingleLineTextEntry.xml
+Near miss for Source/Generic/TwoButtonDialog.lua:
+Expected: 0x0b830545f4e5be2d
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/Generic/TwoButtonDialog.xml
+Using known hash mapping: Source/GenericGump.lua
+Near miss for Source/GenericGump.lua:
+Expected: 0x73b61d12b59c19af
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/GenericGump.xml
+Using known hash mapping: Source/GenericQuantity.lua
+Near miss for Source/GenericQuantity.lua:
+Expected: 0x5f7c4ef7b1e1fdbc
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/GenericQuantity.xml
+Using known hash mapping: Source/GGManager.lua
+Using known hash mapping: Source/GumpsParsing.lua
+Using known hash mapping: Source/HealthBarColor.lua
+Using known hash mapping: Source/HealthBarManager.lua
+Using known hash mapping: Source/HighlightEffect.lua
+Near miss for Source/HighlightEffect.lua:
+Expected: 0x4984a95ca23a85bc
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/HighlightEffect.xml
+Using known hash mapping: Source/HorizontalScrollBarTemplates.xml
+Using known hash mapping: Source/hotbar.lua
+Using known hash mapping: Source/hotbar.xml
+Using known hash mapping: Source/HotbarSystem.lua
+Using known hash mapping: Source/HuePickerWindow.lua
+Near miss for Source/HuePickerWindow.lua:
+Expected: 0x756e41c99520c79e
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/HuePickerWindow.xml
+Using known hash mapping: Source/HuesInfo.lua
+Using known hash mapping: Source/IgnoreWindow.lua
+Near miss for Source/IgnoreWindow.lua:
+Expected: 0xc72cfef342ee8848
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/IgnoreWindow.xml
+Using known hash mapping: Source/ItemProperties.lua
+Near miss for Source/ItemProperties.lua:
+Expected: 0x0458e85c27b1bb4a
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/ItemProperties.xml
+Using known hash mapping: Source/ItemPropertiesInfo.lua
+Using known hash mapping: Source/ItemsInfo.lua
+Using known hash mapping: Source/KnownAreas.lua
+Using known hash mapping: Source/legacy-ui-templates.xml
+Using known hash mapping: Source/LegacyRunebook.lua
+Near miss for Source/LegacyRunebook.lua:
+Expected: 0xc4582792cde2bf9f
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/LegacyRunebook.xml
+Using known hash mapping: Source/LegacyRunebookLoader.lua
+Using known hash mapping: Source/MacroEditWindow.lua
+Using known hash mapping: Source/MacroEditWindow.xml
+Using known hash mapping: Source/MacroPickerWindow.lua
+Using known hash mapping: Source/MacroPickerWindow.xml
+Using known hash mapping: Source/MacroWindow.lua
+Using known hash mapping: Source/MacroWindow.xml
+Using known hash mapping: Source/mainmenuwindow.lua
+Near miss for Source/MainMenuWindow.lua:
+Expected: 0x0ef18efbc0c87a0c
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/mainmenuwindow.xml
+Using known hash mapping: Source/MapCommon.lua
+Using known hash mapping: Source/MapCommon.xml
+Using known hash mapping: Source/MapFind.lua
+Using known hash mapping: Source/MapFind.xml
+Using known hash mapping: Source/MapWindow.lua
+Using known hash mapping: Source/MapWindow.xml
+Using known hash mapping: Source/MobileHealthBar.lua
+Using known hash mapping: Source/MobileHealthBar.xml
+Using known hash mapping: Source/MobilesOnScreenWindow.lua
+Using known hash mapping: Source/MobilesOnScreenWindow.xml
+Using known hash mapping: Source/NameColor.lua
+Using known hash mapping: Source/NewChatOptionsWindow.lua
+Near miss for Source/NewChatOptionsWindow.lua:
+Expected: 0x016a3cb477e697f3
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/NewChatOptionsWindow.xml
+Using known hash mapping: Source/NewChatWindow.lua
+Near miss for Source/NewChatWindow.lua:
+Expected: 0xa61c593e2aa9a285
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/NewChatWindow.xml
+Using known hash mapping: Source/NewPlayerGuide.lua
+Near miss for Source/NewPlayerGuide.lua:
+Expected: 0xfa7be03a563b7b42
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/NewPlayerGuide.xml
+Using known hash mapping: Source/ObjectHandle.lua
+Near miss for Source/ObjectHandle.lua:
+Expected: 0x1899e4810069f98a
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/ObjectHandle.xml
+Using known hash mapping: Source/Organizer.lua
+Using known hash mapping: Source/Organizer.xml
+Using known hash mapping: Source/OrganizerMain.lua
+Using known hash mapping: Source/OverheadText.lua
+Using known hash mapping: Source/OverheadText.xml
+Using known hash mapping: Source/PaperdollWindow.lua
+Using known hash mapping: Source/PaperdollWindow.xml
+Using known hash mapping: Source/PartyHealthBar.lua
+Using known hash mapping: Source/PartyHealthBar.xml
+Using known hash mapping: Source/PartyInviteWindow.lua
+Near miss for Source/PartyInviteWindow.lua:
+Expected: 0x19c86184b5becaea
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/PartyInviteWindow.xml
+Using known hash mapping: Source/PetWindow.lua
+Using known hash mapping: Source/PetWindow.xml
+Using known hash mapping: Source/ProfileWindow.lua
+Using known hash mapping: Source/ProfileWindow.xml
+Using known hash mapping: Source/PropertiesInfo.lua
+Using known hash mapping: Source/PropertiesInfo.xml
+Using known hash mapping: Source/QueryWindow.lua
+Near miss for Source/QueryWindow.lua:
+Expected: 0x222dae848857d4f1
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/QueryWindow.xml
+Using known hash mapping: Source/QuickStats.lua
+Using known hash mapping: Source/QuickStats.xml
+Using known hash mapping: Source/RaceChange.lua
+Near miss for Source/RaceChange.lua:
+Expected: 0xb3178723778a3f6b
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/RaceChange.xml
+Using known hash mapping: Source/RadarWindow.lua
+Using known hash mapping: Source/RadarWindow.xml
+Using known hash mapping: Source/RenameWindow.lua
+Near miss for Source/RenameWindow.lua:
+Expected: 0x679978a854ef8abf
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/RenameWindow.xml
+Using known hash mapping: Source/ResizeWindow.lua
+Near miss for Source/ResizeWindow.lua:
+Expected: 0x120eec3ec37a030a
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/ResizeWindow.xml
+Using known hash mapping: Source/settingswindow.lua
+Near miss for Source/settingswindow.lua:
+Expected: 0xd7bb807a7b62b17e
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/settingswindow.xml
+Using known hash mapping: Source/Shopkeeper.lua
+Near miss for Source/Shopkeeper.lua:
+Expected: 0x064cf551d3ff7cb6
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/Shopkeeper.xml
+Using known hash mapping: Source/SkillsInfo.lua
+Using known hash mapping: Source/SkillsInfo.xml
+Using known hash mapping: Source/SkillsTracker.lua
+Near miss for Source/SkillsTracker.lua:
+Expected: 0x4766313d30d1252c
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/SkillsTracker.xml
+Using known hash mapping: Source/SkillsWindow.lua
+Using known hash mapping: Source/SkillsWindow.xml
+Using known hash mapping: Source/spellbook.lua
+Near miss for Source/spellbook.lua:
+Expected: 0x68a91ccd0ca33262
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/spellbook.xml
+Using known hash mapping: Source/SpellsInfo.lua
+Using known hash mapping: Source/startmenu.lua
+Near miss for Source/StartMenu.lua:
+Expected: 0xd9cca89db2a806a1
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/startmenu.xml
+Using known hash mapping: Source/StaticTextWindow.lua
+Using known hash mapping: Source/StaticTextWindow.xml
+Using known hash mapping: Source/statusbartemplates.xml
+Using known hash mapping: Source/StatusWindow.lua
+Using known hash mapping: Source/StatusWindow.xml
+Using known hash mapping: Source/TargetWindow.lua
+Using known hash mapping: Source/TargetWindow.xml
+Using known hash mapping: Source/TextParsing.lua
+Using known hash mapping: Source/TipoftheDayWindow.lua
+Near miss for Source/TipoftheDayWindow.lua:
+Expected: 0x91faa1b1465dce06
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/TipoftheDayWindow.xml
+Using known hash mapping: Source/TrackingPointer.lua
+Near miss for Source/TrackingPointer.lua:
+Expected: 0xfb6aaa3066b5aaf8
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/TrackingPointer.xml
+Using known hash mapping: Source/TradeWindow.lua
+Using known hash mapping: Source/TradeWindow.xml
+Using known hash mapping: Source/UO_Housing_Templates.xml
+Using known hash mapping: Source/UO_StandardDialog.lua
+Near miss for Source/UO_StandardDialog.lua:
+Expected: 0xbdc28d76dd6da757
+Got:      0x5f3646d330776926
+Using known hash mapping: Source/UserWaypointWindow.lua
+Using known hash mapping: Source/UserWaypointWindow.xml
+Using known hash mapping: Source/VendorSearch.lua
+Using known hash mapping: Source/VendorSearch.xml
+Using known hash mapping: Source/VerticalScrollBarTemplates.xml
+Using known hash mapping: Source/WarShield.xml
+Using known hash mapping: Source/Waypoints.lua
+Using known hash mapping: Source/WindowFrameTemplates.xml
+Using known hash mapping: Textures/00000020_Hud.dds
+Using known hash mapping: Textures/Action_Button_Background.dds
+Using known hash mapping: Textures/advancedBuffButton.dds
+Using known hash mapping: Textures/advancedBuffDockspot.dds
+Using known hash mapping: Textures/agents/buy.dds
+Using known hash mapping: Textures/agents/organizer.dds
+Using known hash mapping: Textures/agents/restock.dds
+Using known hash mapping: Textures/agents/sell.dds
+Using known hash mapping: Textures/animations/circleeffect.dds
+Using known hash mapping: Textures/animations/cooldown.dds
+Using known hash mapping: Textures/highlight_glow01.dds
+Using known hash mapping: Textures/animations/highlight_glow02.dds
+Using known hash mapping: Textures/animations/loadingUO.dds
+Using known hash mapping: Textures/animations/MobileArrow.dds
+Using known hash mapping: Textures/animations/questMarker.dds
+Using known hash mapping: Textures/animations/sleepeffect.dds
+Using known hash mapping: Textures/AtlasMap_bg.dds
+Using known hash mapping: Textures/AtlasMap_option_bg.dds
+Using known hash mapping: Textures/AtlasMap_overlay.dds
+Using known hash mapping: Textures/bars.dds
+Using known hash mapping: Textures/BattleBegins.dds
+Using known hash mapping: Textures/BattleLost.dds
+Using known hash mapping: Textures/beacon.dds
+Using known hash mapping: Textures/blackbg.dds
+Using known hash mapping: Textures/Button_Agent_DL01.dds
+Using known hash mapping: Textures/Button_Agent_DL02.dds
+Using known hash mapping: Textures/Button_Agent_DL03.dds
+Using known hash mapping: Textures/Button_Agent_DR01.dds
+Using known hash mapping: Textures/Button_Agent_DR02.dds
+Using known hash mapping: Textures/Button_Agent_DR03.dds
+Using known hash mapping: Textures/Button_Agent_UL01.dds
+Using known hash mapping: Textures/Button_Agent_UL02.dds
+Using known hash mapping: Textures/Button_Agent_UL03.dds
+Using known hash mapping: Textures/Button_Agent_UR01.dds
+Using known hash mapping: Textures/Button_Agent_UR02.dds
+Using known hash mapping: Textures/Button_Agent_UR03.dds
+Using known hash mapping: Textures/CenterScreenText.dds
+Using known hash mapping: Textures/chat/bookmark.dds
+Using known hash mapping: Textures/chat/chatsettings.dds
+Using known hash mapping: Textures/chat/filter.dds
+Using known hash mapping: Textures/chat/font.dds
+Using known hash mapping: Textures/chat/fontcolor.dds
+Using known hash mapping: Textures/chat/fontsize.dds
+Using known hash mapping: Textures/chat/rubber.dds
+Using known hash mapping: Textures/chat.dds
+Using known hash mapping: Textures/Colored_Grid_Backpack.dds
+Using known hash mapping: Textures/Compass.dds
+Using known hash mapping: Textures/compassneedle.dds
+Using known hash mapping: Textures/cst_Artifact.dds
+Using known hash mapping: Textures/cst_BackpackFull.dds
+Using known hash mapping: Textures/cst_BattleBegins.dds
+Using known hash mapping: Textures/cst_BattleLost.dds
+Using known hash mapping: Textures/cst_BeaconVulnerable.dds
+Using known hash mapping: Textures/cst_BloodOath.dds
+Using known hash mapping: Textures/cst_BoneMachete.dds
+Using known hash mapping: Textures/cst_Disarmed.dds
+Using known hash mapping: Textures/cst_GMarrived.dds
+Using known hash mapping: Textures/cst_GorgonLenses.dds
+Using known hash mapping: Textures/cst_HonorOff.dds
+Using known hash mapping: Textures/cst_LowLife.dds
+Using known hash mapping: Textures/cst_LowPetLife.dds
+Using known hash mapping: Textures/cst_Panic.dds
+Using known hash mapping: Textures/cst_ServerDown.dds
+Using known hash mapping: Textures/cst_SlowedDown.dds
+Using known hash mapping: Textures/cst_Stoned.dds
+Using known hash mapping: Textures/cst_Webbed.dds
+Using known hash mapping: Textures/cst_YouFree.dds
+Using known hash mapping: Textures/curr_tgt.dds
+Using known hash mapping: Textures/danger.dds
+Using known hash mapping: Textures/Default_Grid_Backpack.dds
+Using known hash mapping: Textures/disabled.dds
+Using known hash mapping: Textures/Disarmed.dds
+Using known hash mapping: Textures/eqi_slot_Back.dds
+Using known hash mapping: Textures/eqi_slot_Belt.dds
+Using known hash mapping: Textures/eqi_slot_Bracelet.dds
+Using known hash mapping: Textures/eqi_slot_ChestArmor.dds
+Using known hash mapping: Textures/eqi_slot_Claw.dds
+Using known hash mapping: Textures/eqi_slot_Ears.dds
+Using known hash mapping: Textures/eqi_slot_Footware.dds
+Using known hash mapping: Textures/eqi_slot_Gloves.dds
+Using known hash mapping: Textures/eqi_slot_Head.dds
+Using known hash mapping: Textures/eqi_slot_InnerTorso.dds
+Using known hash mapping: Textures/eqi_slot_Kilt.dds
+Using known hash mapping: Textures/eqi_slot_LeftHand.dds
+Using known hash mapping: Textures/eqi_slot_LegArmor.dds
+Using known hash mapping: Textures/eqi_slot_Neck.dds
+Using known hash mapping: Textures/eqi_slot_OuterLegs.dds
+Using known hash mapping: Textures/eqi_slot_OuterTorso.dds
+Using known hash mapping: Textures/eqi_slot_RightHand.dds
+Using known hash mapping: Textures/eqi_slot_Ring.dds
+Using known hash mapping: Textures/eqi_slot_Shoulder.dds
+Using known hash mapping: Textures/eqi_slot_Sleeves.dds
+Using known hash mapping: Textures/eqi_slot_Talisman.dds
+Using known hash mapping: Textures/eqi_slot_Talisman_S.dds
+Using known hash mapping: Textures/eqi_slot_Wing.dds
+Using known hash mapping: Textures/eqi_state_DamageHeavy.dds
+Using known hash mapping: Textures/eqi_state_DamageHeavy_R.dds
+Using known hash mapping: Textures/eqi_state_DamageMedium.dds
+Using known hash mapping: Textures/eqi_state_DamageMedium_R.dds
+Using known hash mapping: Textures/faceFrame.dds
+Using known hash mapping: Textures/gmarrived.dds
+Using known hash mapping: Textures/Handles.dds
+Using known hash mapping: Textures/hbbg.dds
+Using known hash mapping: Textures/Health_Bar.dds
+Using known hash mapping: Textures/Health_Bar_Fill.dds
+Using known hash mapping: Textures/Health_Bar_Overlay.dds
+Reused path from content hash: Textures/highlight_glow01.dds
+Using known hash mapping: Textures/housing.dds
+Using known hash mapping: Textures/HUD2.dds
+Using known hash mapping: Textures/Latency_Bar_Fill.dds
+Using known hash mapping: Textures/legacy-buttons.dds
+Using known hash mapping: Textures/legacy-gumps-Large-runebook.dds
+Using known hash mapping: Textures/legacy-gumps-runebook.dds
+Using known hash mapping: Textures/line.dds
+Using known hash mapping: Textures/Mana_Bar.dds
+Using known hash mapping: Textures/Mana_Bar_Fill.dds
+Using known hash mapping: Textures/Mana_Bar_Overlay.dds
+Using known hash mapping: Textures/mapBG.dds
+Using known hash mapping: Textures/mapOverlay.dds
+Reused path from content hash: Textures/mapX.dds
+Using known hash mapping: Source/WindowUtils.lua
+Using known hash mapping: Textures/buttons/arrowButtonLeft.dds
+Using known hash mapping: Textures/buttons/arrowButtonRight.dds
+Using known hash mapping: Textures/buttons/arrowdown.dds
+Using known hash mapping: Textures/buttons/arrowup.dds
+Using known hash mapping: Textures/buttons/backpack.dds
+Using known hash mapping: Textures/buttons/bankbox.dds
+Using known hash mapping: Textures/buttons/bigNextButton.dds
+Using known hash mapping: Textures/buttons/bigPrevButton.dds
+Using known hash mapping: Textures/buttons/bod.dds
+Using known hash mapping: Textures/buttons/brownDiamond.dds
+Using known hash mapping: Textures/buttons/chatBaloon.dds
+Using known hash mapping: Textures/buttons/checkBox.dds
+Using known hash mapping: Textures/buttons/circleSelection.dds
+Using known hash mapping: Textures/buttons/closeX.dds
+Using known hash mapping: Textures/buttons/colorButton.dds
+Using known hash mapping: Textures/buttons/colorRing.dds
+Using known hash mapping: Textures/buttons/cureButton.dds
+Using known hash mapping: Textures/buttons/defaultGumpButton.dds
+Using known hash mapping: Textures/buttons/dotButton.dds
+Using known hash mapping: Textures/buttons/extractLeft.dds
+Using known hash mapping: Textures/buttons/extractRight.dds
+Using known hash mapping: Textures/buttons/goldenTabButton.dds
+Using known hash mapping: Textures/buttons/grayDiamond.dds
+Using known hash mapping: Textures/buttons/greenDiamond.dds
+Using known hash mapping: Textures/buttons/guards.dds
+Using known hash mapping: Textures/buttons/healButton.dds
+Using known hash mapping: Textures/buttons/help.dds
+Using known hash mapping: Textures/buttons/invisButton.dds
+Using known hash mapping: Textures/buttons/largeCloseButton.dds
+Using known hash mapping: Textures/buttons/lock.dds
+Using known hash mapping: Textures/buttons/lockButton.dds
+Using known hash mapping: Textures/buttons/lootall.dds
+Using known hash mapping: Textures/buttons/mediumSelectButton.dds
+Using known hash mapping: Textures/buttons/minus.dds
+Using known hash mapping: Textures/buttons/nextButton.dds
+Using known hash mapping: Textures/buttons/objectHandle.dds
+Using known hash mapping: Textures/buttons/plus.dds
+Using known hash mapping: Textures/buttons/prevButton.dds
+Using known hash mapping: Textures/buttons/purpleDiamond.dds
+Using known hash mapping: Textures/buttons/radioButton.dds
+Using known hash mapping: Textures/buttons/resizeTopLeft.dds
+Using known hash mapping: Textures/buttons/resizeTopRight.dds
+Using known hash mapping: Textures/buttons/resizeUpLeft.dds
+Using known hash mapping: Textures/buttons/resizeUpRight.dds
+Using known hash mapping: Textures/buttons/scrollbarDownArrow.dds
+Using known hash mapping: Textures/buttons/scrollBarH.dds
+Using known hash mapping: Textures/buttons/scrollBarHBG.dds
+Using known hash mapping: Textures/buttons/scrollbarLeftArrow.dds
+Using known hash mapping: Textures/buttons/scrollbarRightArrow.dds
+Using known hash mapping: Textures/buttons/scrollbarUpArrow.dds
+Using known hash mapping: Textures/buttons/scrollBarV.dds
+Using known hash mapping: Textures/buttons/scrollBarVBG.dds
+Using known hash mapping: Textures/buttons/search.dds
+Using known hash mapping: Textures/buttons/slotButton.dds
+Using known hash mapping: Textures/buttons/slotShadow.dds
+Using known hash mapping: Textures/buttons/slotWhiteFrame.dds
+Using known hash mapping: Textures/buttons/smallSelect.dds
+Using known hash mapping: Textures/buttons/swirlButton.dds
+Using known hash mapping: Textures/buttons/tabButton.dds
+Using known hash mapping: Textures/buttons/talk.dds
+Using known hash mapping: Textures/buttons/turquoiseDiamond.dds
+Using known hash mapping: Textures/buttons/unlock.dds
+Using known hash mapping: Textures/buttons/updown.dds
+Using known hash mapping: Textures/buttons/warShield.dds
+Using known hash mapping: Textures/buttons/wod.dds
+Using known hash mapping: Textures/buttons/yellowDiamond.dds
+Using known hash mapping: Textures/character_widgets.dds
+Using known hash mapping: Textures/combobox.dds
+Using known hash mapping: Textures/combobox_long.dds
+Using known hash mapping: Textures/contextItemSelection.dds
+Using known hash mapping: Textures/CoreTextures.dds
+Near miss for Textures/buttons/mediumSelectButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/Shard_Selection.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/arrowdown.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/simpleBackground.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/bigPrevButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/UO_Common.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/mainMenuFrame.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/simpleFrame.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/minus.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/purpleDiamond.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/Lock.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/search.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/backpack.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/radioButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/slotButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/colorButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/comboBox.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/goldenTabButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/vdotline.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/largeCloseButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/wod.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/objectHandle.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/healButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/bigNextButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/scrollbarLeftArrow.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/smallSelect.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/outerFrame.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/plus.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/prevButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/talk.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/bod.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/arrowButtonRight.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/help.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/UnLock.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/Legacy_Book.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/warShield.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/resizeTopLeft.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/largeDivider.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/brownDiamond.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/updown.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/ResizeFrame.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/chatBaloon.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/scrollBarH.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/invisButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/checkBox.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/WindowTitle.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/scrollbarUpArrow.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/Buttons.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/resizeUpLeft.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/scrollbarRightArrow.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/slotShadow.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/closeX.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/ExtractLeft.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/dotButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/defaultGumpButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/character_widgets.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/cureButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/lootall.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/swirlButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/defaultSlot.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/comboBox_long.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/innerFrame.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/hline.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/vline.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/scrollBarHBG.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/greenDiamond.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/ShieldButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/slotWhiteFrame.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/CoreTextures.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/circleSelection.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/tabButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/scrollbarDownArrow.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/tick.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/contextItemSelection.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/scrollBarV.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/resizeUpRight.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/frame.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/ExtractRight.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/arrowup.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/colorRing.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/hdotline.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/turquoiseDiamond.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/scrollBarVBG.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/selection.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/guards.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/lockButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/nextButton.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/resizeTopRight.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/bankbox.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/arrowButtonLeft.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/buttons/grayDiamond.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/window_background.dds:
+Expected: 0x4c74db40a4ae1bc1
+Got:      0x9c41a3df40df6e04
+Using known hash mapping: Textures/CoreTextures.xml
+Using known hash mapping: Textures/defaultSlot.dds
+Using known hash mapping: Textures/frame.dds
+Using known hash mapping: Textures/gwen.dds
+Using known hash mapping: Textures/hdotline.dds
+Using known hash mapping: Textures/hline.dds
+Using known hash mapping: Textures/Hud01_medallion.dds
+Using known hash mapping: Textures/Hud02_medallion.dds
+Using known hash mapping: Textures/Hud03_medallion.dds
+Using known hash mapping: Textures/innerFrame.dds
+Using known hash mapping: Textures/largeDivider.dds
+Using known hash mapping: Textures/Legacy_Book.dds
+Using known hash mapping: Textures/mainMenuFrame.dds
+Near miss for portraits/Headless_One.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52ca25
+Near miss for portraits/gwen.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52690e
+Near miss for portraits/Ravager.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f522912
+Near miss for portraits/Elemental_Air.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f529196
+Near miss for portraits/Daemon_Exodus.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f521f17
+Near miss for portraits/Bird_Generic.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f525583
+Near miss for portraits/Shadow_Knight.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f522979
+Near miss for portraits/Elemental_Acid.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f521a14
+Near miss for portraits/Skeleton_Mage.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52114a
+Near miss for portraits/Tsuki_Wolf.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f5249e6
+Near miss for portraits/Gargoyle.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f5271e5
+Near miss for portraits/Succubus.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f521713
+Near miss for portraits/Impaler.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f523d12
+Near miss for portraits/Plague_Beast.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f5212d4
+Near miss for portraits/Sphinx.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52b238
+Near miss for portraits/Bird_Eagle.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f5229e5
+Near miss for Hud03_medallion.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100000000d75e
+Near miss for portraits/Efreet.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52a114
+Near miss for portraits/Dragon_Swamp.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f521210
+Near miss for portraits/Terathan_Worker.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52f863
+Near miss for portraits/Daemon_BlackGate.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f527bf6
+Near miss for portraits/SandVortex.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52dd18
+Near miss for portraits/Cyclopsian_Warrior.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f523857
+Near miss for pot.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100000000ce54
+Near miss for portraits/Paroxysmus.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f524313
+Near miss for portraits/Harpy.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f525679
+Near miss for portraits/Horde_Demon.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52424e
+Near miss for portraits/Bird_Crane.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f529225
+Near miss for portraits/Elemental_Blood.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52fc62
+Near miss for portraits/Horse_Unicorn.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f524ab2
+Near miss for portraits/Goat_Mountain.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f529192
+Near miss for portraits/Goat_Billy.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f523df9
+Near miss for Hud02_medallion.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100000000d75e
+Near miss for portraits/Undead_RottingCorpse.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52f248
+Near miss for portraits/Dark_Father.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52ad12
+Near miss for portraits/Daemon_Chaos.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f529253
+Near miss for portraits/Titan.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f525c8e
+Near miss for portraits/Centaur.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f529312
+Near miss for portraits/Sheep.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52a110
+Near miss for portraits/LadyoftheSnows.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52cc71
+Near miss for portraits/Beetle_Deathwatch.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52df16
+Near miss for portraits/Ophidian.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52b08e
+Near miss for portraits/Ridgeback_flame.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52c05d
+Near miss for portraits/Deer_Stag.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f525c87
+Near miss for Hud01_medallion.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100000000d75e
+Near miss for portraits/Elemental_Water.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f527f30
+Near miss for portraits/Troll.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52c9ec
+Near miss for portraits/Solen_Warrior.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52b257
+Near miss for portraits/Daemon_Bone.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52ca25
+Near miss for portraits/Gazer_Elder.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f529d12
+Near miss for portraits/Dolphin.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52ad8e
+Near miss for portraits/Orc.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f524aa3
+Near miss for portraits/Golem_Iron.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52564e
+Near miss for portraits/Reptalon.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f523e4e
+Near miss for portraits/Ogre.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f522aa5
+Near miss for portraits/Horse_SkeletalMount.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52f437
+Near miss for portraits/Skittering_Hopper.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f528061
+Near miss for portraits/Flail_Reaper.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f524d12
+Near miss for portraits/Elemental_Earth.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f527b06
+Near miss for portraits/Dragon_RetroRed.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52f84e
+Near miss for portraits/Terathan_Warrior.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52be9c
+Near miss for portraits/Bear.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52a092
+Near miss for portraits/Daemon_FourArmed.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f523a15
+Near miss for portraits/Spider_Dread.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52a084
+Near miss for gwen.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100000000690e
+Near miss for portraits/Tengu_Warrior.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52b257
+Near miss for portraits/Fan_Dancer.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f529912
+Near miss for portraits/Pixie.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f526d85
+Near miss for portraits/Changeling.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52b227
+Near miss for portraits/Ettin.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52dd8e
+Near miss for portraits/Oni.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f524a29
+Near miss for portraits/Sea_Horse.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f5256c5
+Near miss for portraits/Beetle_Fire.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52b2a5
+Near miss for portraits/Gazer.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f527512
+Near miss for portraits/Lady_Melisande.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f524603
+Near miss for portraits/Spider_Frost.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52cad4
+Near miss for portraits/Rat_Giant.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f521234
+Near miss for portraits/Darknight_Creeper.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52766f
+Near miss for portraits/skelton.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52de4e
+Near miss for portraits/Imp.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f523210
+Near miss for portraits/Snake_chrome.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52ca05
+Near miss for portraits/Solen_Avenger.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52a917
+Near miss for portraits/Dragon_WhiteWyrm.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f520035
+Near miss for portraits/Treefellow.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52be57
+Near miss for portraits/Undead_Mummy.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f524219
+Near miss for portraits/Canine_wolf.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f5249e6
+Near miss for portraits/Cow_Brown.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52cb4e
+Near miss for portraits/Juka.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52e1c1
+Near miss for portraits/Daemon_Elder.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f529d12
+Near miss for portraits/Dragon_Wyvern.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52a2b2
+Near miss for portraits/Golem_Flesh.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52a2c8
+Near miss for portraits/Lich.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52b0c8
+Near miss for portraits/Gorilla_Silverback.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52bbe9
+Near miss for portraits/Gibberling.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52b227
+Near miss for portraits/Doppleganger.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52a912
+Near miss for portraits/Satyr.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f525f92
+Near miss for portraits/Frog_Giant.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f521234
+Near miss for portraits/MoundofMaggots.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f524c14
+Near miss for portraits/Orc_Scout.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f524b14
+Near miss for portraits/Hiryu.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f525795
+Near miss for portraits/Dragon_Asian.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52308e
+Near miss for portraits/Cat_HellCat.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f521894
+Near miss for tapestryofsosaria.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c41000000007e52
+Near miss for portraits/Ethereal_Warrior.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f520068
+Near miss for portraits/Abysmal_Horror.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52d75a
+Near miss for portraits/dreadhorn.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52caae
+Near miss for portraits/mongbat.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f521494
+Near miss for portraits/Spirit_Ghost.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52cad4
+Near miss for portraits/Daemon_Red.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52d504
+Near miss for portraits/Elemental_Crystal.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f527ecc
+Near miss for portraits/Ant_Lion.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52b24e
+Near miss for portraits/Revenant_Lion_000251.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52e014
+Near miss for portraits/Flail_Corpser.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52d916
+Near miss for portraits/Skeleton_Knight.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f525810
+Near miss for portraits/slime.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52b205
+Near miss for portraits/Elemental_Ore.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52caa9
+Near miss for portraits/Komodo_Dragon.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f522a52
+Near miss for portraits/Canine_Dog_Hound.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52f446
+Near miss for portraits/Rabbit.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f529594
+Near miss for portraits/Evil_Mage.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f521145
+Near miss for portraits/placeholder.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f529d12
+Near miss for portraits/Spider_BlackWidow.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52dc65
+Near miss for portraits/Llama.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f529201
+Near miss for portraits/Troll_Frost.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52cad4
+Near miss for portraits/Bulbous_Putrification.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f520051
+Near miss for portraits/Beetle_Rune.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52e225
+Near miss for portraits/Squirrel.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52d50c
+Near miss for portraits/Ratman.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52c08e
+Near miss for portraits/Ridgeback.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f5290cb
+Near miss for portraits/minotaur.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f529312
+Near miss for portraits/ogre.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f522aa5
+Near miss for portraits/Scorpion_Giant.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f521360
+Near miss for portraits/Bogling.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52b227
+Near miss for portraits/Hydra.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f521ea1
+Near miss for portraits/Undead_Ghoul.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52cb0c
+Near miss for portraits/lizard_lava.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f529321
+Near miss for portraits/Gamam.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52408d
+Near miss for portraits/Snake_Giant.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f521234
+Near miss for portraits/Flails_Quagmire.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f525743
+Near miss for portraits/Elemental_Snow.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f524767
+Near miss for portraits/Solen_Drone.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52ca25
+Near miss for portraits/Daemon_IceFiend.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52542c
+Near miss for portraits/Kraken.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52390e
+Near miss for portraits/Gore_Fiend_.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f5244df
+Near miss for portraits/Orc_Captain.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52918e
+Near miss for portraits/Orc_Brute.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52e2e5
+Near miss for portraits/Dragon_AcientWyrm.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52bbc2
+Near miss for portraits/Ostard_Forest.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52a2d9
+Near miss for portraits/Kirin.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52558e
+Near miss for portraits/Walrus.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52d713
+Near miss for portraits/Undead_Zombie.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52158a
+Near miss for portraits/Troglodyte.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52f2e5
+Near miss for mapofbrittania.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c41000000004741
+Near miss for portraits/Yamandon.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f529e4e
+Near miss for portraits/Elemental_Agapite.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52ff05
+Near miss for portraits/Boar.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52c892
+Near miss for portraits/Flesh_Renderer.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f525624
+Near miss for portraits/WandererOfTheVoid.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52f5d2
+Near miss for portraits/Orc_Shaman.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52408e
+Near miss for portraits/Ferret.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52d514
+Near miss for portraits/Terrathan_Queen.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52605f
+Near miss for portraits/Dragon_ShadowWyrm.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52bbc2
+Near miss for portraits/Alligator_Brown.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52fc6c
+Near miss for portraits/horse.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f5256c5
+Near miss for portraits/Solen_Queen.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52210e
+Near miss for portraits/Lizard_Men.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52c10e
+Near miss for portraits/VampireBat.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f529494
+Near miss for portraits/Deer_Doe.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f529e45
+Near miss for portraits/Bear_Polar.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f523c92
+Near miss for portraits/Cat_Cougar.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f522892
+Near miss for portraits/Elemental_Fire.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52b335
+Near miss for portraits/Juggernaut.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f529314
+Near miss for portraits/Bake_Kitsune.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f526225
+Near miss for portraits/Bull.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52e1ec
+Near miss for portraits/Banshee.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f522d05
+Near miss for portraits/Snake_lava.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f529321
+Near miss for portraits/Daemon_Arcane.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f521229
+Near miss for portraits/grizzle.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52f5e5
+Near miss for portraits/Kappa.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f524e61
+Near miss for portraits/Clockwork_Overseer.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52d42f
+Near miss for portraits/Harpy_Stone.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52ca25
+Near miss for portraits/Dragon_RetroGrey_Drake.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52b056
+Near miss for portraits/snake_ice.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f5230c5
+Near miss for portraits/Elemental_Poison.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52e05f
+Near miss for portraits/Dragon_Skeletal.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f528056
+Near miss for portraits/Dryad.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52f084
+Near miss for pot_dirt.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100000000b2b4
+Near miss for portraits/Bird_Hen.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52ad0e
+Near miss for portraits/Beetle_Giant.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f521234
+Near miss for portraits/Canine_Hell_Hound.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52aebd
+Near miss for portraits/Elemental_Ice.dds:
+Expected: 0x06e1347dbebe01d1
+Got:      0x9c4100006f52b0c9
+Using known hash mapping: Textures/ManagedTextures.xml
+Using known hash mapping: Textures/mapofbrittania.dds
+Using known hash mapping: Textures/outerFrame.dds
+Using known hash mapping: Textures/paperdoll/elf.dds
+Using known hash mapping: Textures/paperdoll/gargoyle.dds
+Using known hash mapping: Textures/portraits/Abysmal_Horror.dds
+Using known hash mapping: Textures/portraits/Alligator_Brown.dds
+Using known hash mapping: Textures/portraits/Ant_Lion.dds
+Using known hash mapping: Textures/portraits/Bake_Kitsune.dds
+Using known hash mapping: Textures/portraits/Banshee.dds
+Using known hash mapping: Textures/portraits/Bear.dds
+Using known hash mapping: Textures/portraits/Bear_Polar.dds
+Using known hash mapping: Textures/portraits/Beetle_Deathwatch.dds
+Using known hash mapping: Textures/portraits/Beetle_Fire.dds
+Using known hash mapping: Textures/portraits/Beetle_Giant.dds
+Using known hash mapping: Textures/portraits/Beetle_Rune.dds
+Using known hash mapping: Textures/portraits/Bird_Crane.dds
+Using known hash mapping: Textures/portraits/Bird_Crow.dds
+Using known hash mapping: Textures/portraits/Bird_Eagle.dds
+Using known hash mapping: Textures/portraits/Bird_Generic.dds
+Using known hash mapping: Textures/portraits/Bird_Hen.dds
+Using known hash mapping: Textures/portraits/Bird_Parrot.dds
+Using known hash mapping: Textures/portraits/Bird_Phoenix.dds
+Using known hash mapping: Textures/portraits/Bird_Turkey.dds
+Using known hash mapping: Textures/portraits/Blade_Spirit.dds
+Using known hash mapping: Textures/portraits/Boar.dds
+Using known hash mapping: Textures/portraits/Bogling.dds
+Using known hash mapping: Textures/portraits/Bulbous_Putrification.dds
+Using known hash mapping: Textures/portraits/Bull.dds
+Using known hash mapping: Textures/portraits/Canine_Dog_Hound.dds
+Using known hash mapping: Textures/portraits/Canine_Hell_Hound.dds
+Using known hash mapping: Textures/portraits/Canine_wolf.dds
+Using known hash mapping: Textures/portraits/Cat_Cougar.dds
+Using known hash mapping: Textures/portraits/Cat_HellCat.dds
+Using known hash mapping: Textures/portraits/Centaur.dds
+Using known hash mapping: Textures/portraits/Changeling.dds
+Using known hash mapping: Textures/portraits/Clockwork_Overseer.dds
+Using known hash mapping: Textures/portraits/Cow_Brown.dds
+Using known hash mapping: Textures/portraits/Cyclopsian_Warrior.dds
+Using known hash mapping: Textures/portraits/Daemon_Arcane.dds
+Using known hash mapping: Textures/portraits/Daemon_BlackGate.dds
+Using known hash mapping: Textures/portraits/Daemon_Bone.dds
+Using known hash mapping: Textures/portraits/Daemon_Chaos.dds
+Using known hash mapping: Textures/portraits/Daemon_Elder.dds
+Using known hash mapping: Textures/portraits/Daemon_Exodus.dds
+Using known hash mapping: Textures/portraits/Daemon_FourArmed.dds
+Using known hash mapping: Textures/portraits/Daemon_IceFiend.dds
+Using known hash mapping: Textures/portraits/Daemon_Red.dds
+Using known hash mapping: Textures/portraits/Darknight_Creeper.dds
+Using known hash mapping: Textures/portraits/Dark_Father.dds
+Using known hash mapping: Textures/portraits/Deer_Doe.dds
+Using known hash mapping: Textures/portraits/Deer_Stag.dds
+Using known hash mapping: Textures/portraits/DevourerofSouls.dds
+Using known hash mapping: Textures/portraits/Dolphin.dds
+Using known hash mapping: Textures/portraits/Doppleganger.dds
+Using known hash mapping: Textures/portraits/Dragon_AcientWyrm.dds
+Using known hash mapping: Textures/portraits/Dragon_Asian.dds
+Using known hash mapping: Textures/portraits/Dragon_Fire.dds
+Using known hash mapping: Textures/portraits/Dragon_RetroGrey_Drake.dds
+Using known hash mapping: Textures/portraits/Dragon_RetroRed.dds
+Using known hash mapping: Textures/portraits/Dragon_Rust.dds
+Using known hash mapping: Textures/portraits/Dragon_ShadowWyrm.dds
+Using known hash mapping: Textures/portraits/Dragon_Skeletal.dds
+Using known hash mapping: Textures/portraits/Dragon_Swamp.dds
+Using known hash mapping: Textures/portraits/Dragon_WhiteWyrm.dds
+Using known hash mapping: Textures/portraits/Dragon_Wyvern.dds
+Using known hash mapping: Textures/portraits/dreadhorn.dds
+Using known hash mapping: Textures/portraits/Dryad.dds
+Using known hash mapping: Textures/portraits/Efreet.dds
+Using known hash mapping: Textures/portraits/Elemental_Acid.dds
+Using known hash mapping: Textures/portraits/Elemental_Agapite.dds
+Using known hash mapping: Textures/portraits/Elemental_Air.dds
+Using known hash mapping: Textures/portraits/Elemental_Blood.dds
+Using known hash mapping: Textures/portraits/Elemental_Crystal.dds
+Using known hash mapping: Textures/portraits/Elemental_Earth.dds
+Using known hash mapping: Textures/portraits/Elemental_Fire.dds
+Using known hash mapping: Textures/portraits/Elemental_Ice.dds
+Using known hash mapping: Textures/portraits/Elemental_Ore.dds
+Using known hash mapping: Textures/portraits/Elemental_Poison.dds
+Using known hash mapping: Textures/portraits/Elemental_Snow.dds
+Using known hash mapping: Textures/portraits/Elemental_Water.dds
+Using known hash mapping: Textures/portraits/Ethereal_Warrior.dds
+Using known hash mapping: Textures/portraits/Ettin.dds
+Using known hash mapping: Textures/portraits/Evil_Mage.dds
+Using known hash mapping: Textures/portraits/Fan_Dancer.dds
+Using known hash mapping: Textures/portraits/Ferret.dds
+Using known hash mapping: Textures/portraits/Flails_Quagmire.dds
+Using known hash mapping: Textures/portraits/Flail_Corpser.dds
+Using known hash mapping: Textures/portraits/Flail_Reaper.dds
+Using known hash mapping: Textures/portraits/Flesh_Renderer.dds
+Using known hash mapping: Textures/portraits/Frog_Giant.dds
+Using known hash mapping: Textures/portraits/Gamam.dds
+Using known hash mapping: Textures/portraits/Gargoyle.dds
+Using known hash mapping: Textures/portraits/Gazer.dds
+Using known hash mapping: Textures/portraits/Gazer_Elder.dds
+Using known hash mapping: Textures/portraits/Gibberling.dds
+Using known hash mapping: Textures/portraits/Goat_Billy.dds
+Using known hash mapping: Textures/portraits/Goat_Mountain.dds
+Using known hash mapping: Textures/portraits/Golem_Flesh.dds
+Using known hash mapping: Textures/portraits/Golem_Iron.dds
+Using known hash mapping: Textures/portraits/Gore_Fiend_.dds
+Using known hash mapping: Textures/portraits/Gorilla_Silverback.dds
+Using known hash mapping: Textures/portraits/grizzle.dds
+Using known hash mapping: Textures/portraits/gwen.dds
+Using known hash mapping: Textures/portraits/Harpy.dds
+Using known hash mapping: Textures/portraits/Harpy_Stone.dds
+Using known hash mapping: Textures/portraits/Headless_One.dds
+Using known hash mapping: Textures/portraits/Hiryu.dds
+Using known hash mapping: Textures/portraits/Horde_Demon.dds
+Using known hash mapping: Textures/portraits/horse.dds
+Using known hash mapping: Textures/portraits/Horse_SkeletalMount.dds
+Using known hash mapping: Textures/portraits/Horse_Unicorn.dds
+Using known hash mapping: Textures/portraits/Hydra.dds
+Using known hash mapping: Textures/portraits/Imp.dds
+Using known hash mapping: Textures/portraits/Impaler.dds
+Using known hash mapping: Textures/portraits/Juggernaut.dds
+Using known hash mapping: Textures/portraits/Juka.dds
+Using known hash mapping: Textures/portraits/Kappa.dds
+Using known hash mapping: Textures/portraits/Kirin.dds
+Using known hash mapping: Textures/portraits/Komodo_Dragon.dds
+Using known hash mapping: Textures/portraits/Kraken.dds
+Using known hash mapping: Textures/portraits/LadyoftheSnows.dds
+Using known hash mapping: Textures/portraits/Lady_Melisande.dds
+Using known hash mapping: Textures/portraits/Lich.dds
+Using known hash mapping: Textures/portraits/lizard_lava.dds
+Using known hash mapping: Textures/portraits/Lizard_Men.dds
+Using known hash mapping: Textures/portraits/Llama.dds
+Using known hash mapping: Textures/portraits/minotaur.dds
+Using known hash mapping: Textures/portraits/mongbat.dds
+Using known hash mapping: Textures/portraits/MoundofMaggots.dds
+Using known hash mapping: Textures/portraits/Ogre.dds
+Using known hash mapping: Textures/portraits/Oni.dds
+Using known hash mapping: Textures/portraits/Ophidian.dds
+Using known hash mapping: Textures/portraits/Orc.dds
+Using known hash mapping: Textures/portraits/Orc_Brute.dds
+Using known hash mapping: Textures/portraits/Orc_Captain.dds
+Using known hash mapping: Textures/portraits/Orc_Scout.dds
+Using known hash mapping: Textures/portraits/Orc_Shaman.dds
+Using known hash mapping: Textures/portraits/Ostard_Forest.dds
+Using known hash mapping: Textures/portraits/Paroxysmus.dds
+Using known hash mapping: Textures/portraits/Pixie.dds
+Using known hash mapping: Textures/portraits/placeholder.dds
+Using known hash mapping: Textures/portraits/Plague_Beast.dds
+Using known hash mapping: Textures/portraits/Rabbit.dds
+Using known hash mapping: Textures/portraits/Ratman.dds
+Using known hash mapping: Textures/portraits/Rat_Giant.dds
+Using known hash mapping: Textures/portraits/Ravager.dds
+Using known hash mapping: Textures/portraits/Reaper_Form.dds
+Using known hash mapping: Textures/portraits/Reptalon.dds
+Using known hash mapping: Textures/portraits/Revenant_Lion_000251.dds
+Using known hash mapping: Textures/portraits/Ridgeback.dds
+Using known hash mapping: Textures/portraits/Ridgeback_flame.dds
+Using known hash mapping: Textures/portraits/SandVortex.dds
+Using known hash mapping: Textures/portraits/Satyr.dds
+Using known hash mapping: Textures/portraits/Scorpion_Giant.dds
+Using known hash mapping: Textures/portraits/Sea_Horse.dds
+Using known hash mapping: Textures/portraits/Sea_Serpent.dds
+Using known hash mapping: Textures/portraits/Shadow_Knight.dds
+Using known hash mapping: Textures/portraits/Sheep.dds
+Using known hash mapping: Textures/portraits/Skeleton_Knight.dds
+Using known hash mapping: Textures/portraits/Skeleton_Mage.dds
+Using known hash mapping: Textures/portraits/skelton.dds
+Using known hash mapping: Textures/portraits/Skittering_Hopper.dds
+Using known hash mapping: Textures/portraits/slime.dds
+Using known hash mapping: Textures/portraits/Snake_chrome.dds
+Using known hash mapping: Textures/portraits/Snake_Giant.dds
+Using known hash mapping: Textures/portraits/snake_ice.dds
+Using known hash mapping: Textures/portraits/Snake_lava.dds
+Using known hash mapping: Textures/portraits/Solen_Avenger.dds
+Using known hash mapping: Textures/portraits/Solen_Drone0.dds
+Using known hash mapping: Textures/portraits/Solen_Queen.dds
+Using known hash mapping: Textures/portraits/Solen_Warrior.dds
+Using known hash mapping: Textures/portraits/Sphinx.dds
+Using known hash mapping: Textures/portraits/Spider_BlackWidow.dds
+Using known hash mapping: Textures/portraits/Spider_Dread.dds
+Using known hash mapping: Textures/portraits/Spider_Frost.dds
+Using known hash mapping: Textures/Spirit_Ghost.dds
+Using known hash mapping: Textures/portraits/Squirrel.dds
+Using known hash mapping: Textures/portraits/Succubus.dds
+Using known hash mapping: Textures/portraits/Succubus_Queen.dds
+Using known hash mapping: Textures/portraits/Tengu_Warrior.dds
+Using known hash mapping: Textures/portraits/Terathan_Warrior.dds
+Using known hash mapping: Textures/portraits/Terathan_Worker.dds
+Using known hash mapping: Textures/portraits/Terrathan_Queen.dds
+Using known hash mapping: Textures/portraits/Titan.dds
+Using known hash mapping: Textures/portraits/Treefellow.dds
+Using known hash mapping: Textures/portraits/Troglodyte.dds
+Using known hash mapping: Textures/portraits/Troll.dds
+Using known hash mapping: Textures/portraits/Troll_Frost.dds
+Using known hash mapping: Textures/portraits/Tsuki_Wolf.dds
+Using known hash mapping: Textures/portraits/Undead_Ghoul.dds
+Using known hash mapping: Textures/portraits/Undead_Mummy.dds
+Using known hash mapping: Textures/portraits/Undead_RottingCorpse.dds
+Using known hash mapping: Textures/portraits/Undead_Zombie.dds
+Using known hash mapping: Textures/portraits/VampireBat.dds
+Using known hash mapping: Textures/portraits/Walrus.dds
+Using known hash mapping: Textures/portraits/WandererOfTheVoid.dds
+Using known hash mapping: Textures/portraits/Yamandon.dds
+Using known hash mapping: Textures/pot.dds
+Using known hash mapping: Textures/pot_dirt.dds
+Using known hash mapping: Textures/ResizeFrame.dds
+Using known hash mapping: Textures/selection.dds
+Using known hash mapping: Textures/Shard_Selection.dds
+Using known hash mapping: Textures/simpleBackground.dds
+Using known hash mapping: Textures/simpleFrame.dds
+Using known hash mapping: Textures/tapestryofsosaria.dds
+Using known hash mapping: Textures/Tick.dds
+Using known hash mapping: Textures/UO_Common.dds
+Using known hash mapping: Textures/vdotline.dds
+Using known hash mapping: Textures/vline.dds
+Using known hash mapping: Textures/windowtitle.dds
+Using known hash mapping: Textures/window_background.dds
+Near miss for fonts/Runes.ttf:
+Expected: 0x882077226ba49817
+Got:      0x6977000006994513
+Near miss for fonts/ARIALUNI.ttf:
+Expected: 0x882077226ba49817
+Got:      0x6977000006995e09
+Near miss for fonts/OmniaLTStd.ttf:
+Expected: 0x882077226ba49817
+Got:      0x6977000006995ae4
+Near miss for fonts/NeueHammerUnzialeLTStd.ttf:
+Expected: 0x882077226ba49817
+Got:      0x697700000699e6f5
+Near miss for fonts/AlbertusMTStd.ttf:
+Expected: 0x882077226ba49817
+Got:      0x6977000006995ae8
+Near miss for fonts/MyriadPro-Regular.ttf:
+Expected: 0x882077226ba49817
+Got:      0x697700000699e5ea
+Near miss for fonts/ariblk.ttf:
+Expected: 0x882077226ba49817
+Got:      0x69770000069915eb
+Using known hash mapping: fonts/NeueHammerUnzialeLTStd.ttf
+Near miss for fonts/Runes.ttf:
+Expected: 0x5131f073b83b40e0
+Got:      0x6977000006994513
+Near miss for fonts/NeueHammerUnzialeLTStd.ttf:
+Expected: 0x5131f073b83b40e0
+Got:      0x697700000699e6f5
+Near miss for fonts/ARIALUNI.ttf:
+Expected: 0x5131f073b83b40e0
+Got:      0x6977000006995e09
+Near miss for Source/UO_LoginWindow.xml:
+Expected: 0xb683f290e7b430d8
+Got:      0x5f3646d330776926
+Near miss for Source/Credits.xml:
+Expected: 0xb683f290e7b430d8
+Got:      0x5f3646d330776926
+Near miss for InterfaceLogin.lua:
+Expected: 0xb683f290e7b430d8
+Got:      0xe54f000000002a27
+Near miss for Source/UO_LoginWindow.lua:
+Expected: 0xb683f290e7b430d8
+Got:      0x5f3646d330776926
+Near miss for Source/UO_Login_StandardDialog.xml:
+Expected: 0xb683f290e7b430d8
+Got:      0x5f3646d330776926
+Near miss for Source/UO_Login_StandardTextConfirmation.xml:
+Expected: 0xb683f290e7b430d8
+Got:      0x5f3646d330776926
+Near miss for Source/CharacterCreation.xml:
+Expected: 0xb683f290e7b430d8
+Got:      0x5f3646d330776926
+Near miss for Source/UO_LoginTemplates.xml:
+Expected: 0xb683f290e7b430d8
+Got:      0x5f3646d330776926
+Near miss for Source/Login.xml:
+Expected: 0xb683f290e7b430d8
+Got:      0x5f3646d330776926
+Near miss for Textures/LoginTextures.xml:
+Expected: 0xb683f290e7b430d8
+Got:      0x9c41a3df40df6e04
+Near miss for Source/CharacterCreation.lua:
+Expected: 0xe20e8786b6fe08dc
+Got:      0x5f3646d330776926
+Near miss for Source/Credits.lua:
+Expected: 0x7fd42363737de6a8
+Got:      0x5f3646d330776926
+Near miss for InternalLogin.lua:
+Expected: 0x4969d8640f5fa33d
+Got:      0xe54f000000002992
+Near miss for Source/Login.lua:
+Expected: 0x70f1514bd6952709
+Got:      0x5f3646d330776926
+Near miss for Source/UO_LoginWindow.lua:
+Expected: 0x764f87f638ac1cbd
+Got:      0x5f3646d330776926
+Near miss for Source/UO_Login_StandardDialog.lua:
+Expected: 0x283204156eeb991d
+Got:      0x5f3646d330776926
+Near miss for Source/UO_Login_StandardTextConfirmation.lua:
+Expected: 0xf4f195582d153ea1
+Got:      0x5f3646d330776926
+Near miss for Textures/ankh.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/box_background_new.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/splash_large_jp.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/splash_nls_large_jp.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/ShieldButton.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/splash_large.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/login_character_widgets.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/UpperLeft_border.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/UO_Stone_Circle.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/Login_Buttons.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/Login_01_jp.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/Login_CoreTextures.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/CC_background.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/Buttons.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/LoginTextures.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/ChatWindow.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/Login_01.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/splash_nls_large.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
+Near miss for Textures/window_background.dds:
+Expected: 0xdcfbb27b77e26070
+Got:      0x9c41a3df40df6e04
