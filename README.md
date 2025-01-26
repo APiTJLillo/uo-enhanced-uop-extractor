@@ -22,7 +22,8 @@ A Python tool for extracting UOP archives from Ultima Online Enhanced and Ultima
 ## Requirements
 
 - Python 3.6 or later
-- No external dependencies required
+- Internet connection (for initial TrID definitions download)
+- requests library (for TrID updates)
 
 ## Installation
 
@@ -36,14 +37,22 @@ The script is standalone and requires no installation.
 
 ## Usage
 
+Basic usage:
 ```bash
 python uop_extract.py <uop_file> <output_dir>
+```
+
+With TrID update:
+```bash
+python uop_extract.py <uop_file> <output_dir> --update-trid
 ```
 
 ### Arguments
 
 - `uop_file`: Path to the UOP archive to extract
 - `output_dir`: Directory where extracted files will be saved
+- `--update-trid`: Optional flag to update TrID definitions before extraction
+- `--debug`: Enable debug output
 
 ### Example
 
@@ -68,12 +77,24 @@ extracted/
 
 ## File Type Detection
 
-The extractor automatically detects and categorizes files based on:
+The extractor uses multiple methods to detect file types:
 
-- Magic bytes/file signatures
-- Content patterns
-- File headers
-- Font table signatures
+1. Primary detection using magic bytes and content patterns
+2. TrID-based detection as a fallback
+3. Font table detection for font files
+4. Content-based heuristics for text files
+
+The tool incorporates Marco Pontello's TrID system for enhanced file identification. TrID definitions are automatically downloaded and converted to XML format on first use or when manually updated.
+
+### TrID Integration
+
+This project uses [TrID](https://mark0.net/soft-trid-e.html) file identification system by Marco Pontello for enhanced file type detection. TrID definitions are:
+- Downloaded automatically from mark0.net
+- Converted to XML format for efficient processing
+- Used as a fallback when primary detection methods are inconclusive
+- Updated via the `--update-trid` command line option
+
+TrID is Copyright (C) 2003-24 Marco Pontello - http://mark0.net/soft-trid-e.html
 
 Supported file types and their detection methods:
 

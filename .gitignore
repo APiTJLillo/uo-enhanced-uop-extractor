@@ -1,0 +1,14 @@
+# Extracted interface files
+interface_extracted/
+
+# TrID definition files
+trid_definitions/
+
+# Python cache directories
+.mypy_cache/
+.pytest_cache/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
