@@ -12,3 +12,4 @@ trid_definitions/
 __pycache__/
 *.py[cod]
 *$py.class
+debug.log

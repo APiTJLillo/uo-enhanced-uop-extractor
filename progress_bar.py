@@ -1,6 +1,6 @@
+import sys
 import math
 import shutil
-import sys
 from typing import TextIO
 
 class ProgressBar:
@@ -41,7 +41,8 @@ class ProgressBar:
         self._target.flush()
 
     @staticmethod
-    def progress_bar_str(progress: float, width: int):
+    def progress_bar_str(progress: float, width: int) -> str:
+        """Generate the progress bar string with the given progress and width."""
         progress = min(1, max(0, progress))
         whole_width = math.floor(progress * width)
         remainder_width = (progress * width) % 1
